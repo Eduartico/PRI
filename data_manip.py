@@ -1,6 +1,8 @@
 from time import sleep
 import pandas as pd
 import requests
+import ast
+import re
 def exclude_columns(input_path, columns_to_exclude, output_path):
     df = pd.read_csv(input_path)
     df = df.drop(columns=columns_to_exclude)
@@ -43,6 +45,8 @@ def get_movie_keywords(api_key, movie_id):
         print(f"Error fetching movie details for movie ID {movie_id}. Status code: {response.status_code}")
         return None
 
+def has_non_numeric(title):
+    return bool(re.search(r'[^\d]', title))
 
 
 # EDIT RAW
@@ -54,6 +58,9 @@ exclude_columns(input_path, columns_to_exclude, output_path)
 
 #data = pd.read_csv('modified_data2.csv')
 data = pd.read_csv('3.csv')
+mask = data['movie title'].apply(has_non_numeric)
+data = data[mask]
+
 
 popularity = []
 votes = []
@@ -123,21 +130,25 @@ for movie_title in data['movie title']:
             keyword_names = []
             for keyword in keywords:
                 keyword_names.append(keyword['name'])
-            new_keywords.append(keyword_names)
-
+        
             # Append the movie's keywords to the movie_keywords list
-            movie_keywords.append(keyword_names)
-            print(new_keywords)
+            if keyword_names is None:
+                movie_keywords.append(['Nada'])
+            else:
+                movie_keywords.append(keyword_names)
+                print("A variável keyword_names não está vazia e contém algum conteúdo.")
+
+            print(keyword_names)
             sleep(0.015)
-            print(
-                "Added this release date: " + str(votes[-1]) + " " + str(popularity[-1]) + " " + str(adult[-1]) + " " + str(
-                    poster_images[-1]) + " to movie " + movie_title)
+            #print(
+                #"Added this release date: " + str(votes[-1]) + " " + str(popularity[-1]) + " " + str(adult[-1]) + " " + str(
+                    #poster_images[-1]) + " to movie " + movie_title)
         else:
             # Handle the case when no results are found for the movie title
             # !! acho que isso tem que adicionar celulas vazias tambem, caso contrario
             # vai gerar menos linhas que a df !!
             print(f"No results found for {movie_title}")
-        print(len(popularity))
+        print(len(movie_keywords))
         '''
         if len(popularity) % 1000 == 0 and len(popularity) != 0:
             data['Popularity'] = popularity
@@ -162,7 +173,44 @@ data['Adult'] = adult
 data['Poster Image'] = poster_images
 data['Runtime'] = runtimes
 data['Taglines'] = taglines
-data['Keywords'] = [list(set(existing + new)) for existing, new in zip(data['Keywords'], movie_keywords)]
+#data['Keywords'] = [list(set(existing + new)) for existing, new in zip(data['Keywords'].tolist, (movie_keywords))]
+
+
+#data['Keywords'] = [sublista1 + sublista2 for sublista1, sublista2 in zip(data['Keywords'].tolist(), new_keywords)]
+
+aux_list = []
+
+lista1 = [ast.literal_eval(item) for item in data['Keywords'].tolist()]
+
+aux_list = []
+
+counter = 0
+for sublista1, sublista2 in zip(lista1, movie_keywords):
+    # Verifique se ambas as sublistas não estão vazias antes de concatená-las
+    if sublista1 and sublista2:
+        #print("added both lists ",end="")
+        #print(sublista1 + sublista2)
+        aux_list.append(sublista1 + sublista2)
+    elif not sublista2 and sublista1:
+        aux_list.append(sublista1)
+        #print("added only sublist1: ",end="")
+        #print(sublista1,end="")
+        #print(sublista2)
+    elif not sublista1 and sublista2:    
+        aux_list.append(sublista2)
+        #print("added only sublist2: ",end="")
+        #print(sublista2,end="")
+        #print(sublista1)
+    else:
+        aux_list.append([])
+    counter+=1        
+#print(counter)
+
+#print(aux_list)
+data['Keywords'] = data['Keywords']
+# 'concatenadas' conterá as sublistas concatenadas
+#print(aux_list)
+#print(len(aux_list))
 
 
 # Save the updated DataFrame to a new CSV file
