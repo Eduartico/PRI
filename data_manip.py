@@ -29,7 +29,7 @@ def get_movie_details(api_key, movie_id):
 
 def get_movie_keywords(api_key, movie_id):
     base_url = "https://api.themoviedb.org/3/movie/"
-    url = f"{base_url}{movie_id}/keywords?language=en-US"  # Use string formatting here
+    url = f"{base_url}{movie_id}/keywords"  # Use string formatting here
     headers = {
         "accept": "application/json",
         "Authorization": f"{api_key}"
@@ -58,8 +58,7 @@ exclude_columns(input_path, columns_to_exclude, output_path)
 
 #data = pd.read_csv('modified_data2.csv')
 data = pd.read_csv('3.csv')
-mask = data['movie title'].apply(has_non_numeric)
-data = data[mask]
+
 
 
 popularity = []
@@ -76,6 +75,9 @@ movie_keywords = []
 api_key = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzM2NmRkMTljN2M0NzBkNDc0NTIwZDk2NjBiNDc0MiIsInN1YiI6IjY1MWZjM2E0M2QzNTU3MDExYzAwZDM4NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GbPjzum6QyDvy2MZY-3vqr1TkeFg7lgoCqdudQwTfQU"
 base_url = "https://api.themoviedb.org/3/search/movie"
 movie_count = 1
+count = 1
+
+print(len(data['movie title']))
 
 # Iterate through each movie title in the DataFrame
 for movie_title in data['movie title']:
@@ -84,12 +86,14 @@ for movie_title in data['movie title']:
         "accept": "application/json",
         "Authorization": f"{api_key}"
     }
+    print(movie_title)
+    print(count)
     response = requests.get(url, headers=headers)
+    count += 1
 
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
         results = response.json().get('results', [])  # Get the 'results' list or an empty list if not found
-
         if results:
             result = results[0]  # Take the first result
             # Extract the desired data
@@ -97,18 +101,7 @@ for movie_title in data['movie title']:
 
             details = get_movie_details(api_key, movie_id)
             keyword = get_movie_keywords(api_key, movie_id)
-
-            # Add empty cells for unavailable movies
-            if details.get('status', None) != 'Released':
-                popularity.append(None)
-                votes.append(None)
-                release_dates.append(None)
-                adult.append(None)
-                poster_images.append(None)
-                runtimes.append(None)
-                taglines.append(None)
-                new_keywords.append("")
-                continue
+            
 
             popularity_score = details.get('popularity', None)
             vote_count = details.get('vote_count', None)
@@ -117,7 +110,8 @@ for movie_title in data['movie title']:
             poster_path = details.get('poster_path', None)
             runtime = details.get('runtime', None)
             tagline = details.get('tagline', None)
-            keywords = keyword.get("keywords", [])
+            keywords = keyword.get("keywords")
+
 
             # Append the data to the respective lists
             popularity.append(popularity_score)
@@ -136,9 +130,6 @@ for movie_title in data['movie title']:
                 movie_keywords.append(['Nada'])
             else:
                 movie_keywords.append(keyword_names)
-                print("A variável keyword_names não está vazia e contém algum conteúdo.")
-
-            print(keyword_names)
             sleep(0.015)
             #print(
                 #"Added this release date: " + str(votes[-1]) + " " + str(popularity[-1]) + " " + str(adult[-1]) + " " + str(
@@ -148,7 +139,7 @@ for movie_title in data['movie title']:
             # !! acho que isso tem que adicionar celulas vazias tambem, caso contrario
             # vai gerar menos linhas que a df !!
             print(f"No results found for {movie_title}")
-        print(len(movie_keywords))
+        
         '''
         if len(popularity) % 1000 == 0 and len(popularity) != 0:
             data['Popularity'] = popularity
@@ -207,7 +198,7 @@ for sublista1, sublista2 in zip(lista1, movie_keywords):
 #print(counter)
 
 #print(aux_list)
-data['Keywords'] = data['Keywords']
+data['Keywords'] = aux_list
 # 'concatenadas' conterá as sublistas concatenadas
 #print(aux_list)
 #print(len(aux_list))
