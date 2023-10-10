@@ -4,6 +4,7 @@ import requests
 import ast
 import re
 import numpy as np
+import os
 def exclude_columns(input_path, columns_to_exclude, output_path):
     df = pd.read_csv(input_path)
     df = df.drop(columns=columns_to_exclude)
@@ -49,6 +50,35 @@ def get_movie_keywords(api_key, movie_id):
 
 def has_non_numeric(title):
     return bool(re.search(r'[^\d]', title))
+
+def split_and_save_dataset(input_path, output_directory, num_parts):
+    # Create the output directory if it doesn't exist
+    os.makedirs(output_directory, exist_ok=True)
+
+    # Load the large dataset
+    df = pd.read_csv(input_path)
+
+    # Calculate the number of rows in each part
+    num_rows = len(df)
+    rows_per_part = num_rows // num_parts
+    last_part_rows = num_rows % num_parts
+
+    # Create and save each part
+    for part in range(num_parts):
+        start_idx = part * rows_per_part
+        end_idx = (part + 1) * rows_per_part if part < num_parts - 1 else (part + 1) * rows_per_part + last_part_rows
+        part_df = df.iloc[start_idx:end_idx]
+        part_output_path = f"{output_directory}/part_{part + 1}.csv"
+        part_df.to_csv(part_output_path, index=False)
+
+    print(f"Dataset split into {num_parts} parts and saved in {output_directory}")
+
+
+input_path = 'original_data.csv'
+output_directory = 'split_data'
+num_parts = 5
+split_and_save_dataset(input_path, output_directory, num_parts)
+
 
 
 # EDIT RAW
