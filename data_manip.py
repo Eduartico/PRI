@@ -218,5 +218,10 @@ data['Keywords'] = aux_list
 columns = ['Popularity', 'Votes', 'Adult', 'Poster Image', 'Runtime', 'Taglines']
 data = data.dropna(axis=0, subset=columns)
 
+data['year'] = pd.to_numeric(data['year'], errors='coerce')
+data = data.dropna(subset=['year'])
+data['year'] = data['year'].abs()
+
+
 # Save the updated DataFrame to a new CSV file
 data.to_csv('updated_data.csv', index=False)
