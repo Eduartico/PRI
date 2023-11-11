@@ -1,0 +1,818 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 10,
+    "params": {
+      "q": "Generes:(Animation) AND (Overview:princess OR Keywords:princess) AND year:[2000 TO 2009]",
+      "indent": "true",
+      "fl": "*, [child]",
+      "q.op": "AND",
+      "sort": "Popularity desc",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 10,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "Rating": [
+          7.9
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back."
+        ],
+        "Keywords": [
+          "onion",
+          "epic",
+          "cult film",
+          "exploding animal",
+          "ethnic cleansing",
+          "tearjerker",
+          "swamp",
+          "donkey",
+          "ogre",
+          "fire breathing dragon",
+          "magic",
+          "liberation",
+          "lordship",
+          "prince",
+          "castle",
+          "fairy tale",
+          "donkey",
+          "robin hood",
+          "enchantment",
+          "swamp",
+          "princess",
+          "parody",
+          "anthropomorphism",
+          "dragon",
+          "woman director",
+          "ogre",
+          "cartoon donkey"
+        ],
+        "Director": [
+          "Andrew Adamson"
+        ],
+        "Writer": [
+          "Vicky Jenson"
+        ],
+        "year": [
+          2001
+        ],
+        "path": [
+          "/title/tt0126029/"
+        ],
+        "Popularity": [
+          115.435
+        ],
+        "Votes": [
+          15802
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          90
+        ],
+        "Taglines": [
+          "The greatest fairy tale never told."
+        ],
+        "id": "28c6b080-d189-497d-88db-122dda944ac6",
+        "movie_title": [
+          "Shrek"
+        ],
+        "User_Rating": [
+          "663K"
+        ],
+        "Top_5_Casts": [
+          "William Steig",
+          "Ted Elliott",
+          "Terry Rossio",
+          "Mike Myers",
+          "Eddie Murphy"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/dyhaB19AICF7TO7CK2aD6KfymnQ.jpg"
+        ],
+        "_version_": 1782286165591719937
+      },
+      {
+        "Rating": [
+          7.3
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be."
+        ],
+        "Keywords": [
+          "reference to spider man",
+          "ogre",
+          "cat",
+          "princess",
+          "puss in boots",
+          "donkey",
+          "sequel",
+          "reference to the little mermaid",
+          "king",
+          "prince",
+          "prison",
+          "magic",
+          "liberation",
+          "honeymoon",
+          "prince",
+          "fairy tale",
+          "parents-in-law",
+          "kingdom",
+          "enchantment",
+          "transformation",
+          "princess",
+          "sequel",
+          "anthropomorphism",
+          "dragon",
+          "ogre",
+          "cartoon donkey"
+        ],
+        "Director": [
+          "Andrew Adamson"
+        ],
+        "Writer": [
+          "Kelly Asbury"
+        ],
+        "year": [
+          2004
+        ],
+        "path": [
+          "/title/tt0298148/"
+        ],
+        "Popularity": [
+          84.372
+        ],
+        "Votes": [
+          11350
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          93
+        ],
+        "Taglines": [
+          "Once upon another time..."
+        ],
+        "id": "0bf738c2-01ea-4200-8467-9fcf5c0c6836",
+        "movie_title": [
+          "Shrek 2"
+        ],
+        "User_Rating": [
+          "454K"
+        ],
+        "Top_5_Casts": [
+          "Conrad Vernon",
+          "William Steig",
+          "Andrew Adamson",
+          "Joe Stillman",
+          "Mike Myers"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg"
+        ],
+        "_version_": 1782286165607448576
+      },
+      {
+        "Rating": [
+          7.1
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him."
+        ],
+        "Keywords": [
+          "prince",
+          "frog",
+          "restaurant",
+          "new orleans jazz",
+          "friendship between girls",
+          "turned into an animal",
+          "fairy tale",
+          "black protagonist",
+          "frog prince",
+          "dream",
+          "restaurant",
+          "new orleans, louisiana",
+          "voodoo",
+          "kiss",
+          "princess",
+          "cajun",
+          "firefly",
+          "based on fairy tale",
+          "duringcreditsstinger",
+          "big dreams",
+          "frog prince",
+          "charlatan",
+          "1920s",
+          "magic spell"
+        ],
+        "Director": [
+          "Ron Clements"
+        ],
+        "Writer": [
+          "John Musker"
+        ],
+        "year": [
+          2009
+        ],
+        "path": [
+          "/title/tt0780521/"
+        ],
+        "Popularity": [
+          70.541
+        ],
+        "Votes": [
+          5074
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          98
+        ],
+        "Taglines": [
+          "Every love story begins with a kiss..."
+        ],
+        "id": "527172c9-7699-4292-89d9-abed9ad1bfdc",
+        "movie_title": [
+          "The Princess and the Frog"
+        ],
+        "User_Rating": [
+          "141K"
+        ],
+        "Top_5_Casts": [
+          "Ron Clements",
+          "John Musker",
+          "Greg Erb",
+          "Anika Noni Rose",
+          "Keith David"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/yprv5PbnEksoVj2v6XEnDBg9joR.jpg"
+        ],
+        "_version_": 1782286165602205697
+      },
+      {
+        "Rating": [
+          6.1
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "Reluctantly designated as the heir to the land of Far, Far Away, Shrek hatches a plan to install the rebellious Artie as the new king while Princess Fiona tries to fend off a coup d'\u00e9tat by the jilted Prince Charming."
+        ],
+        "Keywords": [
+          "shrek",
+          "king",
+          "puss in boots",
+          "donkey",
+          "kingdom",
+          "fairy tale",
+          "tough guy",
+          "tough girl",
+          "fairy tale parody",
+          "air raid",
+          "ambush",
+          "sadness",
+          "stage",
+          "liberation of prisoners",
+          "island",
+          "traitor",
+          "shipwreck",
+          "prince",
+          "pregnancy",
+          "ship",
+          "kingdom",
+          "theater play",
+          "transformation",
+          "conciliation",
+          "tricks",
+          "heir to the throne",
+          "assault",
+          "boarding school",
+          "sequel",
+          "teacher",
+          "best friend",
+          "dragon",
+          "cowardliness",
+          "capture",
+          "duringcreditsstinger",
+          "ogre",
+          "cartoon donkey"
+        ],
+        "Director": [
+          "Chris Miller"
+        ],
+        "Writer": [
+          "Raman Hui"
+        ],
+        "year": [
+          2007
+        ],
+        "path": [
+          "/title/tt0413267/"
+        ],
+        "Popularity": [
+          70.016
+        ],
+        "Votes": [
+          8340
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          93
+        ],
+        "Taglines": [
+          "He\u2019s in for the Royal Treatment."
+        ],
+        "id": "490b6266-32c3-413e-8aad-1df5c4673a4a",
+        "movie_title": [
+          "Shrek the Third"
+        ],
+        "User_Rating": [
+          "302K"
+        ],
+        "Top_5_Casts": [
+          "Jeffrey Price",
+          "Peter S. Seaman",
+          "Chris Miller",
+          "Mike Myers",
+          "Cameron Diaz"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/n4SexGGQzI26E269tfpa80MZaGV.jpg"
+        ],
+        "_version_": 1782286165623177219
+      },
+      {
+        "Rating": [
+          7.1
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "SpongeBob SquarePants takes leave from the town of Bikini Bottom in order to track down King Neptune's stolen crown."
+        ],
+        "Keywords": [
+          "based on tv series",
+          "king",
+          "plankton",
+          "spongebob squarepants character",
+          "based on cartoon",
+          "underwater",
+          "crown",
+          "king neptune",
+          "quest",
+          "princess",
+          "ocean",
+          "sea",
+          "falsely accused",
+          "squid",
+          "live action and animation",
+          "based on tv series"
+        ],
+        "Director": [
+          "Stephen Hillenburg"
+        ],
+        "Writer": [
+          "Mark Osborne"
+        ],
+        "year": [
+          2004
+        ],
+        "path": [
+          "/title/tt0345950/"
+        ],
+        "Popularity": [
+          48.37
+        ],
+        "Votes": [
+          2628
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          87
+        ],
+        "Taglines": [
+          "Bigger. Better. More absorbent."
+        ],
+        "id": "b27d7256-7141-4cf9-9806-575e6bd32b2c",
+        "movie_title": [
+          "The SpongeBob SquarePants Movie"
+        ],
+        "User_Rating": [
+          "89K"
+        ],
+        "Top_5_Casts": [
+          "Derek Drymon",
+          "Tim Hill",
+          "Stephen Hillenburg",
+          "Tom Kenny",
+          "Jeffrey Tambor"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/gjZD811kfY1ideNuBukcuCy8ocA.jpg"
+        ],
+        "_version_": 1782286165641003011
+      },
+      {
+        "Rating": [
+          7.1
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "A young maiden in a land called Andalasia, who is prepared to be wed, is sent away to New York City by an evil Queen, where she falls in love with a lawyer."
+        ],
+        "Keywords": [
+          "fairy tale",
+          "new york",
+          "new york city",
+          "tv news",
+          "stepmother stepson relationship",
+          "talking animal",
+          "cartoon character entering real world",
+          "ball",
+          "apartment",
+          "building",
+          "new york city",
+          "poison",
+          "queen",
+          "magic",
+          "prince",
+          "fairy tale",
+          "musical",
+          "princess",
+          "portal",
+          "female protagonist",
+          "manhattan, new york city",
+          "evil queen",
+          "fantasy world",
+          "evil witch",
+          "true love",
+          "part animation",
+          "live action and animation",
+          "central park, new york city"
+        ],
+        "Director": [
+          "Kevin Lima"
+        ],
+        "Writer": [
+          "Bill Kelly"
+        ],
+        "year": [
+          2007
+        ],
+        "path": [
+          "/title/tt0461770/"
+        ],
+        "Popularity": [
+          34.857
+        ],
+        "Votes": [
+          5094
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          107
+        ],
+        "Taglines": [
+          "This fairytale princess is about to meet a real Prince Charming."
+        ],
+        "id": "0fe49935-eb95-4026-9e00-99c6b96f33e0",
+        "movie_title": [
+          "Enchanted"
+        ],
+        "User_Rating": [
+          "196K"
+        ],
+        "Top_5_Casts": [
+          "Amy Adams",
+          "Susan Sarandon",
+          "James Marsden",
+          "Kevin Lima",
+          "Bill Kelly"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/8KCNzCArLlvLdQoHx6npua2VSVc.jpg"
+        ],
+        "_version_": 1782286165602205699
+      },
+      {
+        "Rating": [
+          5.2
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Family"
+        ],
+        "Overview": [
+          "Arthur answers a distress call from Princess Selenia, who is menaced by the nefarious Maltazard."
+        ],
+        "Keywords": [
+          "spiderweb",
+          "elf",
+          "male protagonist",
+          "live action and animation",
+          "shot back to back",
+          "live action cgi hybrid",
+          "cgi animation",
+          "computer animation",
+          "adaptation directed by original author",
+          "co written by director",
+          "live action and animation",
+          "minimoys"
+        ],
+        "Director": [
+          "Luc Besson"
+        ],
+        "Writer": [
+          "Patrice Garcia"
+        ],
+        "year": [
+          2009
+        ],
+        "path": [
+          "/title/tt0940657/"
+        ],
+        "Popularity": [
+          26.389
+        ],
+        "Votes": [
+          1579
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          93
+        ],
+        "id": "16949522-54fb-4b92-ae88-56131b2e769b",
+        "movie_title": [
+          "Arthur et la vengeance de Maltazard"
+        ],
+        "User_Rating": [
+          "9.6K"
+        ],
+        "Top_5_Casts": [
+          "Luc Besson",
+          "C\u00e9line Garcia",
+          "Selena Gomez",
+          "Freddie Highmore",
+          "Omar Sy"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/rHCL0HwlQvU01TLRRHZFlvsVEqt.jpg"
+        ],
+        "_version_": 1782286165734326272
+      },
+      {
+        "Rating": [
+          4.5
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "An alliance of evil-doers, led by Frieda, looks to take over Fairy Tale Land. But when Ella realizes her stepmother is out to ruin her storybook existence, she takes a dramatic turn and blossoms into the leader of the resistance effort."
+        ],
+        "Keywords": [
+          "pun in title",
+          "germany",
+          "parody comedy",
+          "cinderella",
+          "cgi animation",
+          "first of series",
+          "apostrophe in title",
+          "punctuation in title",
+          "three word title",
+          "computer animation",
+          "dwarf",
+          "wolf",
+          "bad mother-in-law",
+          "prince",
+          "fairy tale",
+          "little red riding hood",
+          "stepmother",
+          "princess",
+          "rumpelstiltskin",
+          "intern",
+          "wizard",
+          "woman director"
+        ],
+        "Director": [
+          "Paul Bolger"
+        ],
+        "Writer": [
+          "Yvette Kaplan"
+        ],
+        "year": [
+          2006
+        ],
+        "path": [
+          "/title/tt0308353/"
+        ],
+        "Popularity": [
+          18.726
+        ],
+        "Votes": [
+          399
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          87
+        ],
+        "Taglines": [
+          "Fairy Tale Endings Aren't What They Used To Be."
+        ],
+        "id": "04ea44a1-37af-489d-a15a-84f010de5a56",
+        "movie_title": [
+          "Happily N'Ever After"
+        ],
+        "User_Rating": [
+          "11K"
+        ],
+        "Top_5_Casts": [
+          "Greg Tiernan",
+          "Robert Moreland",
+          "Doug Langdale",
+          "Andre Sikojev",
+          "Sigourney Weaver"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/gOOlHRhdEoJbPNE1jpocNawjnc5.jpg"
+        ],
+        "_version_": 1782286165737472002
+      },
+      {
+        "Rating": [
+          6.2
+        ],
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Family"
+        ],
+        "Overview": [
+          "It is loosely based on Hans Christian Anderson's classic fairy tale. Because the evil prince Laird did not inherit the crown of Corazion, he sought his revenge by secretly switching his newborn daughter with that of his brother's, King Heath. The real princess is raised as a peas... Read all"
+        ],
+        "Keywords": [
+          "denmark",
+          "kidnapping",
+          "female protagonist",
+          "fairy tale",
+          "independent film",
+          "princess"
+        ],
+        "Director": [
+          "Mark Swan"
+        ],
+        "Writer": [
+          "Forrest S. Baker III"
+        ],
+        "year": [
+          2002
+        ],
+        "path": [
+          "/title/tt0146063/"
+        ],
+        "Popularity": [
+          3.843
+        ],
+        "Votes": [
+          22
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          88
+        ],
+        "Taglines": [
+          "Where the search for true nobility leads to a pure heart."
+        ],
+        "id": "fd2a9081-e118-4ba2-93d5-7f89fba9ec98",
+        "movie_title": [
+          "The Princess and the Pea"
+        ],
+        "User_Rating": [
+          "334"
+        ],
+        "Top_5_Casts": [
+          "Ken Cromar",
+          "Ray Goldrup",
+          "Forrest S. Baker III",
+          "Sarah Baker",
+          "Hetty Baynes"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/oC1wcIY9VECwRkRd6nS4DSHVrMR.jpg"
+        ],
+        "_version_": 1782286166000664576
+      },
+      {
+        "Rating": [
+          4.5
+        ],
+        "Generes": [
+          "Animation",
+          "Action",
+          "Adventure"
+        ],
+        "Overview": [
+          "The sailor is \"persuaded\" by a Princess to help her rescue her kingdom from something fishy."
+        ],
+        "Keywords": [
+          "princess",
+          "kingdom",
+          "king",
+          "sinbad",
+          "character name in title"
+        ],
+        "Director": [
+          "Evan Ricks"
+        ],
+        "Writer": [
+          "Alan Jacobs"
+        ],
+        "year": [
+          2000
+        ],
+        "path": [
+          "/title/tt0144608/"
+        ],
+        "Popularity": [
+          3.651
+        ],
+        "Votes": [
+          21
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          85
+        ],
+        "id": "0dcc7357-22c8-473d-9953-db8ae77b7a7c",
+        "movie_title": [
+          "Sinbad: Beyond the Veil of Mists"
+        ],
+        "User_Rating": [
+          "650"
+        ],
+        "Top_5_Casts": [
+          "Jeff Wolverton",
+          "Alice Amter",
+          "Clint Carmichael",
+          "Brendan Fraser",
+          "Evan Ricks"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/96LV2xGPI9fVPT1cmCGGq5SWspr.jpg"
+        ],
+        "_version_": 1782286162113593345
+      }
+    ]
+  }
+}

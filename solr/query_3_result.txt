@@ -1,0 +1,850 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 27,
+    "params": {
+      "q": "Generes:Horror AND NOT Generes:(Supernatural OR Paranormal) AND Director:(Wes Craven OR John Carpenter)",
+      "indent": "true",
+      "fl": "*, [child]",
+      "q.op": "OR",
+      "sort": "Popularity desc",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 102,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "Rating": [
+          7.7
+        ],
+        "Generes": [
+          "Horror",
+          "Thriller"
+        ],
+        "Overview": [
+          "Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again."
+        ],
+        "Keywords": [
+          "halloween",
+          "babysitting",
+          "year 1978",
+          "1970s",
+          "stabbed to death",
+          "falling from height",
+          "dog",
+          "homicidal maniac",
+          "escaped mental patient",
+          "dead dog",
+          "mask",
+          "babysitter",
+          "halloween",
+          "police",
+          "stalking",
+          "serial killer",
+          "marijuana",
+          "maniac",
+          "killing spree",
+          "family",
+          "evil",
+          "psychotic",
+          "escaped killer"
+        ],
+        "Director": [
+          "John Carpenter"
+        ],
+        "Writer": [
+          "John Carpenter"
+        ],
+        "year": [
+          1978
+        ],
+        "path": [
+          "/title/tt0077651/"
+        ],
+        "Popularity": [
+          73.052
+        ],
+        "Votes": [
+          5003
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          91
+        ],
+        "Taglines": [
+          "The Night He Came Home!"
+        ],
+        "id": "20a3f3ce-98e2-4101-9f0e-563f40fd77cc",
+        "movie_title": [
+          "Halloween"
+        ],
+        "User_Rating": [
+          "267K"
+        ],
+        "Top_5_Casts": [
+          "Debra Hill",
+          "Donald Pleasence",
+          "Jamie Lee Curtis",
+          "Tony Moran",
+          "John Carpenter"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg"
+        ],
+        "_version_": 1782286167205478401
+      },
+      {
+        "Rating": [
+          7.5
+        ],
+        "Generes": [
+          "Drama",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "Overview": [
+          "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+        ],
+        "Keywords": [
+          "survival",
+          "sign language",
+          "deafness",
+          "silence",
+          "post apocalypse",
+          "alien invasion",
+          "alien",
+          "pregnancy",
+          "trying to avoid making noise",
+          "hearing aid",
+          "deaf",
+          "fireworks",
+          "pregnancy",
+          "post-apocalyptic future",
+          "alien life-form",
+          "child in peril",
+          "creature",
+          "alien invasion",
+          "parenting",
+          "survival horror",
+          "human vs alien",
+          "sign languages"
+        ],
+        "Director": [
+          "John Krasinski"
+        ],
+        "Writer": [
+          "Bryan Woods"
+        ],
+        "year": [
+          2018
+        ],
+        "path": [
+          "/title/tt6644200/"
+        ],
+        "Popularity": [
+          68.339
+        ],
+        "Votes": [
+          13108
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          91
+        ],
+        "Taglines": [
+          "If they hear you, they hunt you."
+        ],
+        "id": "fe42e8c9-d245-49ff-ac76-eef615b05b5c",
+        "movie_title": [
+          "A Quiet Place"
+        ],
+        "User_Rating": [
+          "510K"
+        ],
+        "Top_5_Casts": [
+          "Scott Beck",
+          "John Krasinski",
+          "Emily Blunt",
+          "John Krasinski",
+          "Millicent Simmonds"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/nAU74GmpUk7t5iklEp3bufwDq4n.jpg"
+        ],
+        "_version_": 1782286162419777536
+      },
+      {
+        "Rating": [
+          7.2
+        ],
+        "Generes": [
+          "Drama",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "Overview": [
+          "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path."
+        ],
+        "Keywords": [
+          "sequel",
+          "post apocalypse",
+          "oxygen tank",
+          "alien",
+          "survival",
+          "deaf",
+          "deaf girl",
+          "trying to avoid making noise",
+          "boat",
+          "island",
+          "island",
+          "radio transmission",
+          "post-apocalyptic future",
+          "alien life-form",
+          "sequel",
+          "alien",
+          "child in peril",
+          "psychological thriller",
+          "creature",
+          "alien invasion",
+          "parenting",
+          "survival horror",
+          "alien monster",
+          "human vs alien",
+          "sign languages",
+          "alien attack",
+          "hearing impaired"
+        ],
+        "Director": [
+          "John Krasinski"
+        ],
+        "Writer": [
+          "John Krasinski"
+        ],
+        "year": [
+          2020
+        ],
+        "path": [
+          "/title/tt8332922/"
+        ],
+        "Popularity": [
+          67.499
+        ],
+        "Votes": [
+          5712
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          97
+        ],
+        "Taglines": [
+          "Silence is not enough."
+        ],
+        "id": "c3dd27bf-e170-4471-b822-7a02c59bfb4a",
+        "movie_title": [
+          "A Quiet Place Part II"
+        ],
+        "User_Rating": [
+          "213K"
+        ],
+        "Top_5_Casts": [
+          "Bryan Woods",
+          "Scott Beck",
+          "Emily Blunt",
+          "Millicent Simmonds",
+          "Cillian Murphy"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg"
+        ],
+        "_version_": 1782286162395660288
+      },
+      {
+        "Rating": [
+          7.8
+        ],
+        "Generes": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "Overview": [
+          "A team of commandos on a mission in a Central American jungle find themselves hunted by an extraterrestrial warrior."
+        ],
+        "Keywords": [
+          "jungle",
+          "survival",
+          "hunting people",
+          "commando",
+          "predator",
+          "commando mission",
+          "guerrilla base",
+          "shaving",
+          "self destruction",
+          "booby trap",
+          "guerrilla warfare",
+          "central and south america",
+          "predator",
+          "alien",
+          "stalking",
+          "survival",
+          "trap",
+          "creature",
+          "alien invasion",
+          "invisible",
+          "commando",
+          "violence"
+        ],
+        "Director": [
+          "John McTiernan"
+        ],
+        "Writer": [
+          "Jim Thomas"
+        ],
+        "year": [
+          1987
+        ],
+        "path": [
+          "/title/tt0093773/"
+        ],
+        "Popularity": [
+          65.669
+        ],
+        "Votes": [
+          7287
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          107
+        ],
+        "Taglines": [
+          "Soon the hunt will begin."
+        ],
+        "id": "32b92669-e52f-4917-afcb-1d48a50cf5d4",
+        "movie_title": [
+          "Predator"
+        ],
+        "User_Rating": [
+          "402K"
+        ],
+        "Top_5_Casts": [
+          "John Thomas",
+          "Arnold Schwarzenegger",
+          "Carl Weathers",
+          "Kevin Peter Hall",
+          "John McTiernan"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/9XibNLfmUWCg0PPydmyoCl1KxvF.jpg"
+        ],
+        "_version_": 1782286158251687936
+      },
+      {
+        "Rating": [
+          6.2
+        ],
+        "Generes": [
+          "Horror",
+          "Mystery"
+        ],
+        "Overview": [
+          "Ten years have passed, and Sidney Prescott, who has put herself back together thanks in part to her writing, is visited by the Ghostface Killer."
+        ],
+        "Keywords": [
+          "woman in jeopardy",
+          "masked murderer",
+          "stabbing",
+          "slasher killer",
+          "teen horror",
+          "revenge",
+          "film within a film within a film",
+          "bound and gagged",
+          "small town",
+          "high school student",
+          "sheriff",
+          "jealousy",
+          "mask",
+          "victim",
+          "knife",
+          "self-inflicted injury",
+          "sociopath",
+          "murder",
+          "rescue",
+          "house party",
+          "serial killer",
+          "author",
+          "hospital",
+          "teen movie",
+          "slasher",
+          "home invasion",
+          "self-referential",
+          "cousin cousin relationship",
+          "phone call",
+          "millennials",
+          "publicist",
+          "fame-seeking",
+          "new generation",
+          "return to hometown",
+          "masked killer",
+          "remakes"
+        ],
+        "Director": [
+          "Wes Craven"
+        ],
+        "Writer": [
+          "Kevin Williamson"
+        ],
+        "year": [
+          2011
+        ],
+        "path": [
+          "/title/tt1262416/"
+        ],
+        "Popularity": [
+          58.344
+        ],
+        "Votes": [
+          3314
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          111
+        ],
+        "Taglines": [
+          "New decade. New rules."
+        ],
+        "id": "75015cd2-b6a3-4f74-8b9c-febcc66f0dde",
+        "movie_title": [
+          "Scream 4"
+        ],
+        "User_Rating": [
+          "147K"
+        ],
+        "Top_5_Casts": [
+          "Neve Campbell",
+          "Courteney Cox",
+          "David Arquette",
+          "Wes Craven",
+          "Kevin Williamson"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/c2gf4gLMEDKciWZIN2XTYUp2J3m.jpg"
+        ],
+        "_version_": 1782286166883565569
+      },
+      {
+        "Rating": [
+          8.2
+        ],
+        "Generes": [
+          "Horror",
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "Overview": [
+          "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
+        ],
+        "Keywords": [
+          "isolation",
+          "antarctica",
+          "paranoia",
+          "alien creature",
+          "shapeshifting",
+          "body horror",
+          "research station",
+          "alien life form",
+          "cult film",
+          "ambiguous ending",
+          "based on novel or book",
+          "spacecraft",
+          "space marine",
+          "paranoia",
+          "mutation",
+          "snowstorm",
+          "research station",
+          "alien life-form",
+          "remake",
+          "alien",
+          "creature",
+          "antarctica",
+          "shape shifting alien",
+          "alien infection",
+          "cult film",
+          "sled dogs",
+          "alien monster",
+          "alien parasites",
+          "isolated place"
+        ],
+        "Director": [
+          "John Carpenter"
+        ],
+        "Writer": [
+          "Bill Lancaster"
+        ],
+        "year": [
+          1982
+        ],
+        "path": [
+          "/title/tt0084787/"
+        ],
+        "Popularity": [
+          57.55
+        ],
+        "Votes": [
+          6260
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          109
+        ],
+        "Taglines": [
+          "Man is The Warmest Place to Hide."
+        ],
+        "id": "e88f4057-ebdb-4616-ac3f-932764f2e978",
+        "movie_title": [
+          "The Thing"
+        ],
+        "User_Rating": [
+          "412K"
+        ],
+        "Top_5_Casts": [
+          "John W. Campbell Jr.",
+          "Kurt Russell",
+          "Wilford Brimley",
+          "Keith David",
+          "John Carpenter"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/tzGY49kseSE9QAKk47uuDGwnSCu.jpg"
+        ],
+        "_version_": 1782286166567944194
+      },
+      {
+        "Rating": [
+          6.3
+        ],
+        "Generes": [
+          "Horror",
+          "Mystery"
+        ],
+        "Overview": [
+          "Two years after the first series of murders, as Sidney acclimates to college life, someone donning the Ghostface costume begins a new string of killings."
+        ],
+        "Keywords": [
+          "villain",
+          "murder spree",
+          "serial murder",
+          "haunted by the past",
+          "film within a film",
+          "satire",
+          "self referential",
+          "metafiction",
+          "whodunit",
+          "horror icon",
+          "mask",
+          "college",
+          "campus",
+          "sequel",
+          "slaughter",
+          "serial killer",
+          "slasher",
+          "university",
+          "self-referential",
+          "copycat killer"
+        ],
+        "Director": [
+          "Wes Craven"
+        ],
+        "Writer": [
+          "Kevin Williamson"
+        ],
+        "year": [
+          1997
+        ],
+        "path": [
+          "/title/tt0120082/"
+        ],
+        "Popularity": [
+          56.826
+        ],
+        "Votes": [
+          3698
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          120
+        ],
+        "Taglines": [
+          "Someone has taken their love of sequels one step too far."
+        ],
+        "id": "0ce09fa6-cb30-4a78-a18f-c741d371cfbd",
+        "movie_title": [
+          "Scream 2"
+        ],
+        "User_Rating": [
+          "180K"
+        ],
+        "Top_5_Casts": [
+          "Neve Campbell",
+          "Courteney Cox",
+          "David Arquette",
+          "Wes Craven",
+          "Kevin Williamson"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/dORlVasiaDkJXTqt9bdH7nFNs6C.jpg"
+        ],
+        "_version_": 1782286166885662722
+      },
+      {
+        "Rating": [
+          3.8
+        ],
+        "Generes": [
+          "Horror"
+        ],
+        "Overview": [
+          "A teenage girl once possessed by a demon finds that it still lurks within her. Meanwhile, a priest investigates the death of the girl's exorcist."
+        ],
+        "Keywords": [
+          "demon",
+          "priest",
+          "teenage girl",
+          "exorcism",
+          "african man",
+          "psychic power",
+          "doppelganger",
+          "psychotherapy",
+          "demonic possession",
+          "catholic church",
+          "exorcism",
+          "religion and supernatural",
+          "examination",
+          "pact with the devil",
+          "possession",
+          "priest",
+          "devil",
+          "catholic church",
+          "demonic possession",
+          "locust",
+          "supernatural horror"
+        ],
+        "Director": [
+          "John Boorman"
+        ],
+        "Writer": [
+          "Rospo Pallenberg"
+        ],
+        "year": [
+          1977
+        ],
+        "path": [
+          "/title/tt0076009/"
+        ],
+        "Popularity": [
+          52.838
+        ],
+        "Votes": [
+          627
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          118
+        ],
+        "Taglines": [
+          "It's Four Years Later...What Does She Remember?"
+        ],
+        "id": "471dff04-0a98-4cf2-93d1-6e307d91cad9",
+        "movie_title": [
+          "Exorcist II: The Heretic"
+        ],
+        "User_Rating": [
+          "25K"
+        ],
+        "Top_5_Casts": [
+          "William Goodhart",
+          "William Peter Blatty",
+          "Rospo Pallenberg",
+          "Richard Burton",
+          "Linda Blair"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/g9i3LTMYLRHvCYSKimZEfd1Vqy7.jpg"
+        ],
+        "_version_": 1782286166902439939
+      },
+      {
+        "Rating": [
+          5.6
+        ],
+        "Generes": [
+          "Horror",
+          "Mystery"
+        ],
+        "Overview": [
+          "While Sidney and her friends visit the Hollywood set of Stab 3, the third film based on the Woodsboro murders, another Ghostface killer rises to terrorize them."
+        ],
+        "Keywords": [
+          "mystery killer",
+          "serial killer",
+          "masked killer",
+          "tape over mouth",
+          "horror icon",
+          "reference to princess leia",
+          "slasher killer",
+          "mysterious killer",
+          "nightmare",
+          "ghostface",
+          "movie business",
+          "isolation",
+          "mask",
+          "ex-cop",
+          "serial killer",
+          "reporter",
+          "slasher",
+          "hollywood",
+          "self-referential",
+          "phone call",
+          "former-reporter",
+          "hollywood, usa",
+          "annual phone call"
+        ],
+        "Director": [
+          "Wes Craven"
+        ],
+        "Writer": [
+          "Kevin Williamson"
+        ],
+        "year": [
+          2000
+        ],
+        "path": [
+          "/title/tt0134084/"
+        ],
+        "Popularity": [
+          50.941
+        ],
+        "Votes": [
+          3174
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          116
+        ],
+        "Taglines": [
+          "Someone has taken their love of trilogies one step too far."
+        ],
+        "id": "bcace9ee-eb83-4543-8598-2dd668b241b2",
+        "movie_title": [
+          "Scream 3"
+        ],
+        "User_Rating": [
+          "141K"
+        ],
+        "Top_5_Casts": [
+          "Ehren Kruger",
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Wes Craven"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/qpH8ToZVlFD1bakL04LkEKodyDI.jpg"
+        ],
+        "_version_": 1782286166887759874
+      },
+      {
+        "Rating": [
+          5.0
+        ],
+        "Generes": [
+          "Drama",
+          "Fantasy",
+          "Horror"
+        ],
+        "Overview": [
+          "A teenage girl discovers a box that carries magic powers and a deadly price for using them."
+        ],
+        "Keywords": [
+          "teenage girl",
+          "garbage",
+          "girl riding a bicycle with training wheels",
+          "suicide by hanging",
+          "facial bruise",
+          "blood spattered face",
+          "wishing box",
+          "magic",
+          "dream sequence",
+          "death of a friend",
+          "magic",
+          "wish fulfillment"
+        ],
+        "Director": [
+          "John R. Leonetti"
+        ],
+        "Writer": [
+          "Barbara Marshall"
+        ],
+        "year": [
+          2017
+        ],
+        "path": [
+          "/title/tt5322012/"
+        ],
+        "Popularity": [
+          47.402
+        ],
+        "Votes": [
+          1218
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          90
+        ],
+        "Taglines": [
+          "Be careful what you wish for"
+        ],
+        "id": "10341cd6-60cb-4488-894e-b0e120d3161e",
+        "movie_title": [
+          "Wish Upon"
+        ],
+        "User_Rating": [
+          "21K"
+        ],
+        "Top_5_Casts": [
+          "Joey King",
+          "Ryan Phillippe",
+          "Ki Hong Lee",
+          "John R. Leonetti",
+          "Barbara Marshall"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/u0vnocj57vJt5DHoBEqUOD1G4SU.jpg"
+        ],
+        "_version_": 1782286163736788994
+      }
+    ]
+  }
+}

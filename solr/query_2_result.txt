@@ -1,0 +1,805 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 5,
+    "params": {
+      "q": "Generes:(Romance) AND (Overview:(adolescence OR teen) OR Keywords:(adolescence OR teen))",
+      "indent": "true",
+      "fl": "*, [child]",
+      "q.op": "OR",
+      "sort": "Popularity desc",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 115,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "Rating": [
+          6.3
+        ],
+        "Generes": [
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "A teenager who's spent her whole life confined to her home falls for the boy next door."
+        ],
+        "Keywords": [
+          "immune disorder",
+          "disease",
+          "new neighbor",
+          "nurse",
+          "black teen",
+          "munchausen syndrome by proxy",
+          "reference to flowers for algernon",
+          "reference to daniel keyes",
+          "tight curls",
+          "isolation",
+          "lisbon, portugal",
+          "writer's block",
+          "sequel",
+          "wedding",
+          "social media",
+          "troubled past",
+          "male writer",
+          "dysfunctional relationship",
+          "based on young adult novel",
+          "fanfic"
+        ],
+        "Director": [
+          "Stella Meghie"
+        ],
+        "Writer": [
+          "J. Mills Goodloe"
+        ],
+        "year": [
+          2017
+        ],
+        "path": [
+          "/title/tt5001718/"
+        ],
+        "Popularity": [
+          1010.315
+        ],
+        "Votes": [
+          241
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          93
+        ],
+        "id": "74d5815a-e893-43eb-ac7a-ee5f878f3d71",
+        "movie_title": [
+          "Everything, Everything"
+        ],
+        "User_Rating": [
+          "38K"
+        ],
+        "Top_5_Casts": [
+          "Nicola Yoon",
+          "Amandla Stenberg",
+          "Nick Robinson",
+          "Anika Noni Rose",
+          "Stella Meghie"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/uQxjZGU6rxSPSMeAJPJQlmfV3ys.jpg"
+        ],
+        "_version_": 1782286163127566336
+      },
+      {
+        "Rating": [
+          4.6
+        ],
+        "Generes": [
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "Just as Tessa makes the biggest decision of her life, everything changes. Revelations about her family, and then Hardin's, throw everything they knew before in doubt and makes their hard-won future together more difficult to claim."
+        ],
+        "Keywords": [
+          "young adult",
+          "based on young adult novel",
+          "sequel",
+          "third part",
+          "secret",
+          "teen drama",
+          "teen romance",
+          "timeframe 2020s",
+          "timeframe 21st century",
+          "based on novel",
+          "based on novel or book",
+          "family history",
+          "love",
+          "teenage crush",
+          "woman director",
+          "family tension"
+        ],
+        "Director": [
+          "Castille Landon"
+        ],
+        "Writer": [
+          "Anna Todd"
+        ],
+        "year": [
+          2021
+        ],
+        "path": [
+          "/title/tt13069986/"
+        ],
+        "Popularity": [
+          190.028
+        ],
+        "Votes": [
+          2324
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          99
+        ],
+        "id": "7d249d83-6377-48ad-9add-2993f6321026",
+        "movie_title": [
+          "After We Fell"
+        ],
+        "User_Rating": [
+          "13K"
+        ],
+        "Top_5_Casts": [
+          "Sharon Soboil",
+          "Josephine Langford",
+          "Hero Fiennes Tiffin",
+          "Louise Lombard",
+          "Castille Landon"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/dU4HfnTEJDf9KvxGS9hgO7BVeju.jpg"
+        ],
+        "_version_": 1782286162484789249
+      },
+      {
+        "Rating": [
+          7.3
+        ],
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "A pretty, popular teenager can't go out on a date until her ill-tempered older sister does."
+        ],
+        "Keywords": [
+          "protective father",
+          "dating",
+          "shakespeare adaptation",
+          "high school shakespeare adaptation",
+          "teen comedy",
+          "tutor",
+          "juvenile delinquent",
+          "boyfriend girlfriend relationship",
+          "single father",
+          "sister sister relationship",
+          "high school",
+          "deception",
+          "based on play or musical",
+          "coming of age",
+          "teen movie",
+          "shrew",
+          "valentine's day",
+          "shakespeare in modern dress",
+          "opposites attract",
+          "duringcreditsstinger",
+          "teenage romance",
+          "overprotective father"
+        ],
+        "Director": [
+          "Gil Junger"
+        ],
+        "Writer": [
+          "Karen McCullah"
+        ],
+        "year": [
+          1999
+        ],
+        "path": [
+          "/title/tt0147800/"
+        ],
+        "Popularity": [
+          51.628
+        ],
+        "Votes": [
+          7405
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          97
+        ],
+        "Taglines": [
+          "How do I loathe thee? Let me count the ways."
+        ],
+        "id": "b58f2f84-dda1-49f9-a6a8-c3124d6403cf",
+        "movie_title": [
+          "10 Things I Hate About You"
+        ],
+        "User_Rating": [
+          "332K"
+        ],
+        "Top_5_Casts": [
+          "Kirsten Smith",
+          "William Shakespeare",
+          "Heath Ledger",
+          "Julia Stiles",
+          "Joseph Gordon-Levitt"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/ujERk3aKABXU3NDXOAxEQYTHe9A.jpg"
+        ],
+        "_version_": 1782286162418728960
+      },
+      {
+        "Rating": [
+          5.8
+        ],
+        "Generes": [
+          "Comedy",
+          "Family",
+          "Romance"
+        ],
+        "Overview": [
+          "Now settled in Genovia, Princess Mia faces a new revelation: she is being primed for an arranged marriage to an English suitor."
+        ],
+        "Keywords": [
+          "sleepover",
+          "riding sidesaddle",
+          "pinching cheek",
+          "poodle",
+          "slimehouse",
+          "teen comedy",
+          "princess",
+          "queen",
+          "law",
+          "viscount",
+          "coronation",
+          "duty",
+          "marriage",
+          "falling in love"
+        ],
+        "Director": [
+          "Garry Marshall"
+        ],
+        "Writer": [
+          "Meg Cabot"
+        ],
+        "year": [
+          2004
+        ],
+        "path": [
+          "/title/tt0368933/"
+        ],
+        "Popularity": [
+          47.528
+        ],
+        "Votes": [
+          3021
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          113
+        ],
+        "Taglines": [
+          "It can take a lifetime to find true love; she's got 30 days!"
+        ],
+        "id": "764580d9-38bc-4bcf-b42d-f518e55333a5",
+        "movie_title": [
+          "The Princess Diaries 2: Royal Engagement"
+        ],
+        "User_Rating": [
+          "80K"
+        ],
+        "Top_5_Casts": [
+          "Gina Wendkos",
+          "Shonda Rhimes",
+          "Anne Hathaway",
+          "Callum Blue",
+          "Julie Andrews"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/9GkLjwvqjwDfLZkWLGjLLfQf2Be.jpg"
+        ],
+        "_version_": 1782286166163193857
+      },
+      {
+        "Rating": [
+          7.0
+        ],
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "A teenage girl's secret love letters are exposed and wreak havoc on her love life."
+        ],
+        "Keywords": [
+          "teenage boy",
+          "love letter",
+          "teen romance",
+          "asian",
+          "teenage girl",
+          "korean food",
+          "sister's boyfriend",
+          "spin the bottle",
+          "sister sister relationship",
+          "pretend boyfriend",
+          "based on novel or book",
+          "love letter",
+          "high school",
+          "romance",
+          "first love",
+          "lost mother",
+          "woman director",
+          "sisterhood",
+          "pretend relationship",
+          "based on young adult novel",
+          "asian american"
+        ],
+        "Director": [
+          "Susan Johnson"
+        ],
+        "Writer": [
+          "Sofia Alvarez"
+        ],
+        "year": [
+          2018
+        ],
+        "path": [
+          "/title/tt3846674/"
+        ],
+        "Popularity": [
+          46.74
+        ],
+        "Votes": [
+          8049
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          100
+        ],
+        "Taglines": [
+          "The letters are out."
+        ],
+        "id": "463ce881-7071-453f-ae01-dd78ea14e65e",
+        "movie_title": [
+          "To All the Boys I've Loved Before"
+        ],
+        "User_Rating": [
+          "104K"
+        ],
+        "Top_5_Casts": [
+          "Jenny Han",
+          "Lana Condor",
+          "Noah Centineo",
+          "Janel Parrish",
+          "Susan Johnson"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg"
+        ],
+        "_version_": 1782286162637881345
+      },
+      {
+        "Rating": [
+          6.3
+        ],
+        "Generes": [
+          "Comedy",
+          "Family",
+          "Romance"
+        ],
+        "Overview": [
+          "Mia Thermopolis has just found out that she is the heir apparent to the throne of Genovia. With her friends Lilly and Michael Moscovitz in tow, she tries to navigate through the rest of her sixteenth year."
+        ],
+        "Keywords": [
+          "princess",
+          "makeover",
+          "high school",
+          "awkward girl",
+          "manners",
+          "cinderella story",
+          "pantyhose",
+          "teenager",
+          "brain freeze",
+          "teen movie",
+          "based on novel or book",
+          "grandparent grandchild relationship",
+          "heir to the throne",
+          "high school",
+          "princess",
+          "royalty",
+          "social outcast",
+          "fictitious country",
+          "based on young adult novel"
+        ],
+        "Director": [
+          "Garry Marshall"
+        ],
+        "Writer": [
+          "Meg Cabot"
+        ],
+        "year": [
+          2001
+        ],
+        "path": [
+          "/title/tt0247638/"
+        ],
+        "Popularity": [
+          44.913
+        ],
+        "Votes": [
+          4587
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          115
+        ],
+        "Taglines": [
+          "She rocks. She rules. She reigns."
+        ],
+        "id": "2c1a3b42-40d6-4c82-85e9-7249b47a0eb8",
+        "movie_title": [
+          "The Princess Diaries"
+        ],
+        "User_Rating": [
+          "143K"
+        ],
+        "Top_5_Casts": [
+          "Gina Wendkos",
+          "Julie Andrews",
+          "Anne Hathaway",
+          "Hector Elizondo",
+          "Garry Marshall"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/wA4lgl8gmoICSShviCkEB61nIBB.jpg"
+        ],
+        "_version_": 1782286166087696384
+      },
+      {
+        "Rating": [
+          6.4
+        ],
+        "Generes": [
+          "Comedy",
+          "Romance"
+        ],
+        "Overview": [
+          "An average Joe meets the perfect woman, but his lack of confidence and the influence of his friends and family begin to pick away at the relationship."
+        ],
+        "Keywords": [
+          "nudity",
+          "sex scene",
+          "voyeur",
+          "voyeurism",
+          "airport",
+          "blonde",
+          "airport security",
+          "swimming pool",
+          "kiss",
+          "teen comedy",
+          "airport",
+          "ex-boyfriend",
+          "ex-girlfriend",
+          "romantic comedy",
+          "best friend",
+          "dating",
+          "insecurity",
+          "airport security",
+          "opposites attract",
+          "unlikely lovers",
+          "twenty something",
+          "duringcreditsstinger",
+          "pittsburgh, pennsylvania",
+          "family disapproval",
+          "party planner",
+          "pittsburgh penguins"
+        ],
+        "Director": [
+          "Jim Field Smith"
+        ],
+        "Writer": [
+          "Sean Anders"
+        ],
+        "year": [
+          2010
+        ],
+        "path": [
+          "/title/tt0815236/"
+        ],
+        "Popularity": [
+          42.123
+        ],
+        "Votes": [
+          1945
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          104
+        ],
+        "Taglines": [
+          "When she's this hot, You get one shot."
+        ],
+        "id": "be9183a2-8fbd-466c-81f5-a43e74879372",
+        "movie_title": [
+          "She's Out of My League"
+        ],
+        "User_Rating": [
+          "137K"
+        ],
+        "Top_5_Casts": [
+          "John Morris",
+          "Jay Baruchel",
+          "Alice Eve",
+          "T.J. Miller",
+          "Jim Field Smith"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/mpYHjyPX0DAxbsnWKmSK5jZ1s4T.jpg"
+        ],
+        "_version_": 1782286166123347969
+      },
+      {
+        "Rating": [
+          7.7
+        ],
+        "Generes": [
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "Two teenage cancer patients begin a life-affirming journey to visit a reclusive author in Amsterdam."
+        ],
+        "Keywords": [
+          "cancer",
+          "falling in love",
+          "novel",
+          "terminal illness",
+          "teenager",
+          "friendship",
+          "oxygen tank",
+          "based on young adult novel",
+          "amsterdam netherlands",
+          "support group",
+          "amsterdam, netherlands",
+          "based on novel or book",
+          "support group",
+          "cancer",
+          "valentine's day",
+          "star crossed lovers",
+          "teen drama",
+          "oxygen tank",
+          "based on young adult novel"
+        ],
+        "Director": [
+          "Josh Boone"
+        ],
+        "Writer": [
+          "Scott Neustadter"
+        ],
+        "year": [
+          2014
+        ],
+        "path": [
+          "/title/tt2582846/"
+        ],
+        "Popularity": [
+          33.065
+        ],
+        "Votes": [
+          10667
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          126
+        ],
+        "id": "a4ae5921-9cbc-40a9-b973-8e1db6a89a65",
+        "movie_title": [
+          "The Fault in Our Stars"
+        ],
+        "User_Rating": [
+          "371K"
+        ],
+        "Top_5_Casts": [
+          "Michael H. Weber",
+          "John Green",
+          "Shailene Woodley",
+          "Ansel Elgort",
+          "Nat Wolff"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/ep7dF4QR4Mm39LI958V0XbwE0hK.jpg"
+        ],
+        "_version_": 1782286162565529602
+      },
+      {
+        "Rating": [
+          6.6
+        ],
+        "Generes": [
+          "Comedy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "Overview": [
+          "Two high-school nerds use a computer program to literally create the perfect woman, who promptly turns their lives upside-down."
+        ],
+        "Keywords": [
+          "teen comedy",
+          "artificially created woman",
+          "nudity",
+          "teenage sexuality",
+          "erotic fantasy",
+          "sexual attraction",
+          "dream girl",
+          "chicago illinois",
+          "sexual frustration",
+          "woman in a shower",
+          "nerd",
+          "biker",
+          "based on comic",
+          "morphing"
+        ],
+        "Director": [
+          "John Hughes"
+        ],
+        "Writer": [
+          "John Hughes"
+        ],
+        "year": [
+          1985
+        ],
+        "path": [
+          "/title/tt0090305/"
+        ],
+        "Popularity": [
+          31.425
+        ],
+        "Votes": [
+          1249
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          94
+        ],
+        "Taglines": [
+          "If you can't get a date, make one!"
+        ],
+        "id": "891076bb-f437-4a7c-a2a2-02eabc6a05e7",
+        "movie_title": [
+          "Weird Science"
+        ],
+        "User_Rating": [
+          "88K"
+        ],
+        "Top_5_Casts": [
+          "Al Feldstein",
+          "William M. Gaines",
+          "Anthony Michael Hall",
+          "Ilan Mitchell-Smith",
+          "Kelly LeBrock"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/jaEauZd2joSAKn42D83gm3S0y3F.jpg"
+        ],
+        "_version_": 1782286166076162049
+      },
+      {
+        "Rating": [
+          6.3
+        ],
+        "Generes": [
+          "Comedy",
+          "Romance",
+          "Sport"
+        ],
+        "Overview": [
+          "When her brother decides to ditch for a couple weeks, Viola heads over to his elite boarding school, disguised as him, and proceeds to fall for his school's star soccer player, and soon learns she's not the only one with romantic troubles."
+        ],
+        "Keywords": [
+          "teenager",
+          "love triangle",
+          "pretending to be someone else",
+          "girl disguised as a boy",
+          "school",
+          "twin",
+          "disguise",
+          "roommate",
+          "crush",
+          "girls' soccer",
+          "roommate",
+          "twin sister",
+          "fake identity",
+          "sports",
+          "high school",
+          "boarding school",
+          "twin brother",
+          "mistaken identity",
+          "football (soccer)",
+          "teen comedy",
+          "tomboy",
+          "disguised voice",
+          "the big game",
+          "2000s",
+          "woman disguised as man",
+          "gay theme"
+        ],
+        "Director": [
+          "Andy Fickman"
+        ],
+        "Writer": [
+          "Ewan Leslie"
+        ],
+        "year": [
+          2006
+        ],
+        "path": [
+          "/title/tt0454945/"
+        ],
+        "Popularity": [
+          28.528
+        ],
+        "Votes": [
+          2771
+        ],
+        "Adult": [
+          false
+        ],
+        "Runtime": [
+          105
+        ],
+        "Taglines": [
+          "If you wanna chase your dream, sometimes you gotta break the rules."
+        ],
+        "id": "475bf758-5a8c-48f0-954c-0435935a2a77",
+        "movie_title": [
+          "She's the Man"
+        ],
+        "User_Rating": [
+          "158K"
+        ],
+        "Top_5_Casts": [
+          "Karen McCullah",
+          "Kirsten Smith",
+          "Amanda Bynes",
+          "Laura Ramsey",
+          "Channing Tatum"
+        ],
+        "Poster_Image": [
+          "http://image.tmdb.org/t/p/w500/gdF2PEBdwoohpPqKL93eCk17zNO.jpg"
+        ],
+        "_version_": 1782286166116007937
+      }
+    ]
+  }
+}
