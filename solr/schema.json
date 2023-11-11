@@ -1,32 +1,110 @@
 {
 	"add-field-type": [
         {
-            "name":"movie",
-            "class":"solr.TextField",
-            "indexAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
+            "name": "movie_synopsis",
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
                 },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.StopFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
                 ]
             },
-            "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
                 },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.StopFilterFactory"},
+                    {"class": "solr.PorterStemFilterFactory"}
+                ]
+            }
+        },
+        {
+            
+            "name": "title",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
+                    {"class": "solr.LowerCaseFilterFactory"}
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
+                    {"class": "solr.LowerCaseFilterFactory"}
                 ]
             }
         }
     ],
     "add-field": [
         {
-            "name": "movie title",
-            "type": "movie",
+            "name": "movie_title",
+            "type": "title",
+            "indexed": true
+        },
+        {
+            "name": "genres",
+            "type": "strings",
+            "indexed": true
+        },
+        {
+            "name": "keywords",
+            "type": "strings",
+            "indexed": true
+        },
+        {
+            "name": "director",
+            "type": "string",
+            "indexed": true
+        },
+        {
+            "name": "top_casts",
+            "type": "strings",
+            "indexed": true
+        },
+        {
+            "name": "year",
+            "type": "pint",
+            "indexed": true
+        },
+        {
+            "name": "popularity",
+            "type": "pfloat",
+            "indexed": true
+        },
+        {
+            "name": "adult",
+            "type": "boolean",
+            "indexed": true
+        },
+        {
+            "name": "runtime",
+            "type": "pint",
+            "indexed": true
+        },
+        {
+            "name": "taglines",
+            "type": "text_general",
+            "indexed": true
+        },
+        {
+            "name": "overview",
+            "type": "movie_synopsis",
             "indexed": true
         }
     ]
