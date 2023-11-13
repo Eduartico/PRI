@@ -21,3 +21,4 @@ data["Top 5 Casts"] = data["Top 5 Casts"].apply(convert_string_to_list)
 
 # Salva o DataFrame atualizado em um novo arquivo JSON
 data.to_json('updated_data.json', orient='records')
+

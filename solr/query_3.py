@@ -3,7 +3,8 @@ import json
 
 SELECT_URL = 'http://localhost:8983/solr/movies/select'
 
-#filmes de terror que não são sobrenaturais
+# filmes de terror que não são sobrenaturais dos diretores Wes Craven ou John Carpenter
+# Aqui está a resultados mal, por exemplo está a aparecer diretores com o nome John mas o apelido n é Carpenter
 params = {
     'q': 'Generes:Horror AND NOT Generes:(Supernatural OR Paranormal) AND Director:(Wes Craven OR John Carpenter)',
     'indent': 'true',
