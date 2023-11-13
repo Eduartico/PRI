@@ -1,7 +1,7 @@
 {
 	"add-field-type": [
         {
-            "name": "movie_synopsis",
+            "name": "overview_keyword",
             "class": "solr.TextField",
             "positionIncrementGap": "100",
             "indexAnalyzer": {
@@ -19,11 +19,13 @@
                 "tokenizer": {
                     "class": "solr.StandardTokenizerFactory"
                 },
+
                 "filters": [
                     {"class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true},
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.StopFilterFactory"},
-                    {"class": "solr.PorterStemFilterFactory"}
+                    {"class": "solr.PorterStemFilterFactory"},
+                    {"class": "solr.SynonymGraphFilterFactory", "expand": true, "ignoreCase": true,"synonyms": "synonyms.txt"}
                 ]
             }
         },
@@ -64,7 +66,7 @@
         },
         {
             "name": "keywords",
-            "type": "strings",
+            "type": "overview_keyword",
             "indexed": true
         },
         {
@@ -104,7 +106,7 @@
         },
         {
             "name": "overview",
-            "type": "movie_synopsis",
+            "type": "overview_keyword",
             "indexed": true
         }
     ]

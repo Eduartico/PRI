@@ -1,7 +1,7 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 27,
+    "QTime": 2,
     "params": {
       "q": "Generes:Horror AND NOT Generes:(Supernatural OR Paranormal) AND Director:(Wes Craven OR John Carpenter)",
       "indent": "true",
@@ -79,7 +79,7 @@
         "Taglines": [
           "The Night He Came Home!"
         ],
-        "id": "20a3f3ce-98e2-4101-9f0e-563f40fd77cc",
+        "id": "52a0349e-a287-4f35-8d0a-c3d2af59e038",
         "movie_title": [
           "Halloween"
         ],
@@ -96,7 +96,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg"
         ],
-        "_version_": 1782286167205478401
+        "_version_": 1782460403678183429
       },
       {
         "Rating": [
@@ -161,7 +161,7 @@
         "Taglines": [
           "If they hear you, they hunt you."
         ],
-        "id": "fe42e8c9-d245-49ff-ac76-eef615b05b5c",
+        "id": "f41bfd66-5711-498e-aa00-c13ed4a819ee",
         "movie_title": [
           "A Quiet Place"
         ],
@@ -178,7 +178,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/nAU74GmpUk7t5iklEp3bufwDq4n.jpg"
         ],
-        "_version_": 1782286162419777536
+        "_version_": 1782460401418502147
       },
       {
         "Rating": [
@@ -248,7 +248,7 @@
         "Taglines": [
           "Silence is not enough."
         ],
-        "id": "c3dd27bf-e170-4471-b822-7a02c59bfb4a",
+        "id": "bacbb4e0-3b00-427e-ab76-72b6185486a2",
         "movie_title": [
           "A Quiet Place Part II"
         ],
@@ -265,7 +265,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg"
         ],
-        "_version_": 1782286162395660288
+        "_version_": 1782460401404870657
       },
       {
         "Rating": [
@@ -330,7 +330,7 @@
         "Taglines": [
           "Soon the hunt will begin."
         ],
-        "id": "32b92669-e52f-4917-afcb-1d48a50cf5d4",
+        "id": "f1585474-b259-46cc-ade7-6d2521059305",
         "movie_title": [
           "Predator"
         ],
@@ -347,7 +347,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/9XibNLfmUWCg0PPydmyoCl1KxvF.jpg"
         ],
-        "_version_": 1782286158251687936
+        "_version_": 1782460399477587968
       },
       {
         "Rating": [
@@ -425,7 +425,7 @@
         "Taglines": [
           "New decade. New rules."
         ],
-        "id": "75015cd2-b6a3-4f74-8b9c-febcc66f0dde",
+        "id": "22026abd-9f24-4643-a4f4-e5f65cbbdd5a",
         "movie_title": [
           "Scream 4"
         ],
@@ -442,7 +442,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/c2gf4gLMEDKciWZIN2XTYUp2J3m.jpg"
         ],
-        "_version_": 1782286166883565569
+        "_version_": 1782460403518799873
       },
       {
         "Rating": [
@@ -514,7 +514,7 @@
         "Taglines": [
           "Man is The Warmest Place to Hide."
         ],
-        "id": "e88f4057-ebdb-4616-ac3f-932764f2e978",
+        "id": "51055363-f26e-4d59-bebc-854cb2de1e52",
         "movie_title": [
           "The Thing"
         ],
@@ -531,7 +531,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/tzGY49kseSE9QAKk47uuDGwnSCu.jpg"
         ],
-        "_version_": 1782286166567944194
+        "_version_": 1782460403361513475
       },
       {
         "Rating": [
@@ -593,7 +593,7 @@
         "Taglines": [
           "Someone has taken their love of sequels one step too far."
         ],
-        "id": "0ce09fa6-cb30-4a78-a18f-c741d371cfbd",
+        "id": "037698b2-c145-4bb1-8665-0db8e4dd83fe",
         "movie_title": [
           "Scream 2"
         ],
@@ -610,7 +610,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/dORlVasiaDkJXTqt9bdH7nFNs6C.jpg"
         ],
-        "_version_": 1782286166885662722
+        "_version_": 1782460403519848449
       },
       {
         "Rating": [
@@ -672,7 +672,7 @@
         "Taglines": [
           "It's Four Years Later...What Does She Remember?"
         ],
-        "id": "471dff04-0a98-4cf2-93d1-6e307d91cad9",
+        "id": "f1426434-2bc8-49be-8f9a-33b2d5656e90",
         "movie_title": [
           "Exorcist II: The Heretic"
         ],
@@ -689,7 +689,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/g9i3LTMYLRHvCYSKimZEfd1Vqy7.jpg"
         ],
-        "_version_": 1782286166902439939
+        "_version_": 1782460403527188485
       },
       {
         "Rating": [
@@ -754,7 +754,7 @@
         "Taglines": [
           "Someone has taken their love of trilogies one step too far."
         ],
-        "id": "bcace9ee-eb83-4543-8598-2dd668b241b2",
+        "id": "3915fe20-4c17-4ac6-805f-ce6d99a6ea70",
         "movie_title": [
           "Scream 3"
         ],
@@ -771,7 +771,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/qpH8ToZVlFD1bakL04LkEKodyDI.jpg"
         ],
-        "_version_": 1782286166887759874
+        "_version_": 1782460403520897026
       },
       {
         "Rating": [
@@ -826,7 +826,7 @@
         "Taglines": [
           "Be careful what you wish for"
         ],
-        "id": "10341cd6-60cb-4488-894e-b0e120d3161e",
+        "id": "eb6f255a-8621-45d2-b550-b75fadda66b4",
         "movie_title": [
           "Wish Upon"
         ],
@@ -843,7 +843,7 @@
         "Poster_Image": [
           "http://image.tmdb.org/t/p/w500/u0vnocj57vJt5DHoBEqUOD1G4SU.jpg"
         ],
-        "_version_": 1782286163736788994
+        "_version_": 1782460402064424960
       }
     ]
   }
