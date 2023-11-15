@@ -1,891 +1,357 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 2,
+    "QTime": 24,
     "params": {
-      "q": "(Generes:(Christmas OR Comedy OR Family) AND Keywords: Christmas) AND NOT Generes:Horror OR Overview:(holiday OR heartwarming)",
+      "q": "christmas eve",
+      "defType": "edismax",
       "indent": "true",
-      "fl": "*, [child]",
-      "q.op": "OR",
-      "sort": "Popularity desc",
-      "wt": "json"
+      "qf": "movie_title Keywords Overview",
+      "fl": "movie_title, Overview, Generes, Keywords",
+      "q.op": "AND",
+      "wt": "json",
+      "bq": "movie_title:christmas Generes:Comedy Generes:Family Keywords:Christmas Keywords:christmas Overview: christmas "
     }
   },
   "response": {
-    "numFound": 156,
+    "numFound": 49,
     "start": 0,
     "numFoundExact": true,
     "docs": [
       {
-        "Rating": [
-          7.9
-        ],
-        "Generes": [
-          "Animation",
-          "Family",
-          "Fantasy"
-        ],
-        "Overview": [
-          "Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion."
-        ],
-        "Keywords": [
-          "christmas",
-          "halloween",
-          "stop motion animation",
-          "santa claus character",
-          "villain",
-          "scientist",
-          "gothic",
-          "horror for children",
-          "mayor",
-          "good versus evil",
-          "holiday",
-          "fire",
-          "santa claus",
-          "magic",
-          "halloween",
-          "skeleton",
-          "musical",
-          "christmas tree",
-          "woods",
-          "stop motion",
-          "pumpkin",
-          "saving christmas",
-          "christmas"
-        ],
-        "Director": [
-          "Henry Selick"
-        ],
-        "Writer": [
-          "Tim Burton"
-        ],
-        "year": [
-          1993
-        ],
-        "path": [
-          "/title/tt0107688/"
-        ],
-        "Popularity": [
-          184.392
-        ],
-        "Votes": [
-          8527
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          79
-        ],
-        "Taglines": [
-          "This is Halloween, everybody make a scene!"
-        ],
-        "id": "fa04f79b-5f57-4c98-891a-9354e9e7d6a9",
-        "movie_title": [
-          "The Nightmare Before Christmas"
-        ],
-        "User_Rating": [
-          "328K"
-        ],
-        "Top_5_Casts": [
-          "Michael McDowell",
-          "Caroline Thompson",
-          "Danny Elfman",
-          "Chris Sarandon",
-          "Catherine O'Hara"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg"
-        ],
-        "_version_": 1782460403500974084
-      },
-      {
-        "Rating": [
-          7.6
-        ],
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Fantasy"
-        ],
-        "Overview": [
-          "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
-        ],
-        "Keywords": [
-          "magic",
-          "wizard",
-          "orphan",
-          "school of magic",
-          "based on novel",
-          "train",
-          "unicorn",
-          "bully",
-          "forest",
-          "ghost",
-          "london, england",
-          "witch",
-          "based on novel or book",
-          "magic",
-          "school friend",
-          "child hero",
-          "school of witchcraft",
-          "chosen one",
-          "friendship",
-          "boarding school",
-          "school",
-          "shopping",
-          "fantasy world",
-          "wizard",
-          "christmas",
-          "based on young adult novel",
-          "owl"
-        ],
-        "Director": [
-          "Chris Columbus"
-        ],
-        "Writer": [
-          "J.K. Rowling"
-        ],
-        "year": [
-          2001
-        ],
-        "path": [
-          "/title/tt0241527/"
-        ],
-        "Popularity": [
-          158.222
-        ],
-        "Votes": [
-          25430
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          152
-        ],
-        "Taglines": [
-          "Let the magic begin."
-        ],
-        "id": "1e8ae39b-fc26-44a3-80c4-a9f6cae21a9b",
-        "movie_title": [
-          "Harry Potter and the Sorcerer's Stone"
-        ],
-        "User_Rating": [
-          "757K"
-        ],
-        "Top_5_Casts": [
-          "Steve Kloves",
-          "Daniel Radcliffe",
-          "Rupert Grint",
-          "Richard Harris",
-          "Chris Columbus"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
-        ],
-        "_version_": 1782460402891751426
-      },
-      {
-        "Rating": [
-          7.4
-        ],
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Fantasy"
-        ],
-        "Overview": [
-          "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed."
-        ],
-        "Keywords": [
-          "invisibility cloak",
-          "wizard",
-          "sequel",
-          "witch",
-          "boarding school",
-          "giant snake",
-          "vincent crabbe character",
-          "basilisk",
-          "killing a monster",
-          "child protagonist",
-          "flying car",
-          "witch",
-          "sword",
-          "magic",
-          "diary",
-          "child hero",
-          "school of witchcraft",
-          "giant spider",
-          "giant snake",
-          "black magic",
-          "child driving car",
-          "wizard",
-          "aftercreditsstinger",
-          "christmas",
-          "based on young adult novel",
-          "elf"
-        ],
-        "Director": [
-          "Chris Columbus"
-        ],
-        "Writer": [
-          "J.K. Rowling"
-        ],
-        "year": [
-          2002
-        ],
-        "path": [
-          "/title/tt0295297/"
-        ],
-        "Popularity": [
-          150.99
-        ],
-        "Votes": [
-          20430
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          161
-        ],
-        "Taglines": [
-          "Hogwarts is back in session."
-        ],
-        "id": "d8b7218c-57bc-4310-b245-0d36bd8a1f57",
-        "movie_title": [
-          "Harry Potter and the Chamber of Secrets"
-        ],
-        "User_Rating": [
-          "619K"
-        ],
-        "Top_5_Casts": [
-          "Steve Kloves",
-          "Daniel Radcliffe",
-          "Rupert Grint",
-          "Emma Watson",
-          "Chris Columbus"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg"
-        ],
-        "_version_": 1782460402898042880
-      },
-      {
-        "Rating": [
-          7.7
-        ],
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Fantasy"
-        ],
-        "Overview": [
-          "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
-        ],
-        "Keywords": [
-          "tournament",
-          "wizard",
-          "magic",
-          "school of magic",
-          "heroism",
-          "evil wizard",
-          "witch",
-          "teenage boy",
-          "good versus evil",
-          "boarding school",
-          "witch",
-          "based on novel or book",
-          "world cup",
-          "maze",
-          "magic",
-          "dying and death",
-          "school of witchcraft",
-          "chosen one",
-          "black magic",
-          "mermaid",
-          "boarding school",
-          "vision",
-          "school",
-          "tournament",
-          "dragon",
-          "wizard",
-          "teenage hero",
-          "christmas",
-          "based on young adult novel"
-        ],
-        "Director": [
-          "Mike Newell"
-        ],
-        "Writer": [
-          "Steve Kloves"
-        ],
-        "year": [
-          2005
-        ],
-        "path": [
-          "/title/tt0330373/"
-        ],
-        "Popularity": [
-          135.794
-        ],
-        "Votes": [
-          19326
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          157
-        ],
-        "Taglines": [
-          "Dark And Difficult Times Lie Ahead."
-        ],
-        "id": "db2bda85-7ea7-418c-9fab-9b159427325b",
-        "movie_title": [
-          "Harry Potter and the Goblet of Fire"
-        ],
-        "User_Rating": [
-          "611K"
-        ],
-        "Top_5_Casts": [
-          "J.K. Rowling",
-          "Daniel Radcliffe",
-          "Emma Watson",
-          "Rupert Grint",
-          "Mike Newell"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg"
-        ],
-        "_version_": 1782460402894897155
-      },
-      {
-        "Rating": [
-          7.9
-        ],
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Fantasy"
-        ],
-        "Overview": [
-          "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard."
-        ],
-        "Keywords": [
-          "magic",
-          "wizard",
-          "werewolf",
-          "rat",
-          "school of magic",
-          "wrongful conviction",
-          "magical map",
-          "eating a chocolate",
-          "based on young adult novel",
-          "friendship",
-          "flying",
-          "witch",
-          "bus",
-          "traitor",
-          "magic",
-          "school friend",
-          "child hero",
-          "school of witchcraft",
-          "black magic",
-          "time travel",
-          "friendship",
-          "school",
-          "best friend",
-          "werewolf",
-          "muggle",
-          "wizard",
-          "aftercreditsstinger",
-          "magical creature",
-          "night bus",
-          "teenage life",
-          "christmas",
-          "school class",
-          "based on young adult novel",
-          "magic spell"
-        ],
-        "Director": [
-          "Alfonso Cuar\u00f3n"
-        ],
-        "Writer": [
-          "J.K. Rowling"
-        ],
-        "year": [
-          2004
-        ],
-        "path": [
-          "/title/tt0304141/"
-        ],
-        "Popularity": [
-          123.513
-        ],
-        "Votes": [
-          20078
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          141
-        ],
-        "Taglines": [
-          "Something wicked this way comes."
-        ],
-        "id": "e07028f7-7a95-4c98-bb5a-a109a424eb1d",
-        "movie_title": [
-          "Harry Potter and the Prisoner of Azkaban"
-        ],
-        "User_Rating": [
-          "618K"
-        ],
-        "Top_5_Casts": [
-          "Steve Kloves",
-          "Daniel Radcliffe",
-          "Emma Watson",
-          "Rupert Grint",
-          "Alfonso Cuar\u00f3n"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
-        ],
-        "_version_": 1782460402898042882
-      },
-      {
-        "Rating": [
-          7.6
-        ],
-        "Generes": [
-          "Action",
-          "Adventure",
-          "Family"
-        ],
-        "Overview": [
-          "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
-        ],
-        "Keywords": [
-          "witchcraft",
-          "school of magic",
-          "hereditary gift of witchcraft",
-          "murder",
-          "friendship",
-          "memory",
-          "severus snape character",
-          "sequel",
-          "magic",
-          "fire",
-          "london, england",
-          "witch",
-          "magic",
-          "dying and death",
-          "school of witchcraft",
-          "apparition",
-          "curse",
-          "teenage crush",
-          "school",
-          "werewolf",
-          "teenage love",
-          "luck",
-          "wizard",
-          "secret past",
-          "christmas",
-          "based on young adult novel"
-        ],
-        "Director": [
-          "David Yates"
-        ],
-        "Writer": [
-          "Steve Kloves"
-        ],
-        "year": [
-          2009
-        ],
-        "path": [
-          "/title/tt0417741/"
-        ],
-        "Popularity": [
-          121.094
-        ],
-        "Votes": [
-          18163
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          153
-        ],
-        "Taglines": [
-          "Dark Secrets Revealed"
-        ],
-        "id": "998d604a-d491-43c3-be49-ea01c952d58f",
-        "movie_title": [
-          "Harry Potter and the Half-Blood Prince"
-        ],
-        "User_Rating": [
-          "531K"
-        ],
-        "Top_5_Casts": [
-          "J.K. Rowling",
-          "Daniel Radcliffe",
-          "Emma Watson",
-          "Rupert Grint",
-          "David Yates"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"
-        ],
-        "_version_": 1782460399589785601
-      },
-      {
-        "Rating": [
-          7.7
-        ],
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Fantasy"
-        ],
-        "Overview": [
-          "As Harry, Ron, and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows."
-        ],
-        "Keywords": [
-          "magic",
-          "based on young adult novel",
-          "fear",
-          "cemetery",
-          "sequel",
-          "harry potter movie franchise",
-          "cgi character in a live action movie",
-          "thief",
-          "witch",
-          "torture",
-          "london, england",
-          "corruption",
-          "witch",
-          "isolation",
-          "radio",
-          "magic",
-          "teleportation",
-          "bravery",
-          "shelter",
-          "friendship",
-          "road trip",
-          "tension",
-          "attack",
-          "escape",
-          "werewolf",
-          "road movie",
-          "wizard",
-          "christmas",
-          "based on young adult novel"
-        ],
-        "Director": [
-          "David Yates"
-        ],
-        "Writer": [
-          "Steve Kloves"
-        ],
-        "year": [
-          2010
-        ],
-        "path": [
-          "/title/tt0926084/"
-        ],
-        "Popularity": [
-          116.786
-        ],
-        "Votes": [
-          17816
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          146
-        ],
-        "Taglines": [
-          "One Way\u2026 One Fate\u2026 One Hero."
-        ],
-        "id": "d5dc2db1-de5d-42b0-b638-5e135de3cb60",
-        "movie_title": [
-          "Harry Potter and the Deathly Hallows: Part 1"
-        ],
-        "User_Rating": [
-          "535K"
-        ],
-        "Top_5_Casts": [
-          "J.K. Rowling",
-          "Daniel Radcliffe",
-          "Emma Watson",
-          "Rupert Grint",
-          "David Yates"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
-        ],
-        "_version_": 1782460402894897154
-      },
-      {
-        "Rating": [
-          7.5
-        ],
-        "Generes": [
-          "Action",
-          "Adventure",
-          "Family"
-        ],
-        "Overview": [
-          "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
-        ],
-        "Keywords": [
-          "friendship",
-          "arthur weasley character",
-          "argus filch character",
-          "george weasley character",
-          "fred weasley character",
-          "abusive uncle",
-          "bullying",
-          "albus dumbledore character",
-          "dolores umbridge character",
-          "harry potter movie franchise",
-          "prophecy",
-          "witch",
-          "loss of loved one",
-          "professor",
-          "magic",
-          "child hero",
-          "dying and death",
-          "school of witchcraft",
-          "black magic",
-          "sorcery",
-          "court",
-          "supernatural",
-          "occult",
-          "wizard",
-          "christmas",
-          "scholar",
-          "mystical land",
-          "ministry",
-          "based on young adult novel"
-        ],
-        "Director": [
-          "David Yates"
-        ],
-        "Writer": [
-          "Michael Goldenberg"
-        ],
-        "year": [
-          2007
-        ],
-        "path": [
-          "/title/tt0373889/"
-        ],
-        "Popularity": [
-          114.759
-        ],
-        "Votes": [
-          18212
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          138
-        ],
-        "Taglines": [
-          "Evil Must Be Confronted."
-        ],
-        "id": "4f7c855a-842e-46d1-92bc-f88c23f96cc4",
-        "movie_title": [
-          "Harry Potter and the Order of the Phoenix"
-        ],
-        "User_Rating": [
-          "567K"
-        ],
-        "Top_5_Casts": [
-          "J.K. Rowling",
-          "Daniel Radcliffe",
-          "Emma Watson",
-          "Rupert Grint",
-          "David Yates"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
-        ],
-        "_version_": 1782460399579299841
-      },
-      {
-        "Rating": [
-          7.1
-        ],
-        "Generes": [
-          "Comedy"
-        ],
-        "Overview": [
-          "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George."
-        ],
-        "Keywords": [
-          "high school girl",
-          "high school",
-          "teenage girl",
-          "teenage sex",
-          "new girl in town",
-          "mean girl",
-          "satire",
-          "love triangle",
-          "breast implant",
-          "clique",
-          "africa",
-          "female friendship",
-          "bullying",
-          "prom",
-          "coming of age",
-          "teenage girl",
-          "fish out of water",
-          "best friend",
-          "gossip",
-          "clique",
-          "teen comedy",
-          "exploitation of friendship",
-          "high school rivalry",
-          "new girl at school",
-          "christmas",
-          "manipulative friend",
-          "math genius",
-          "teenage friendship",
-          "teenager"
-        ],
-        "Director": [
-          "Mark Waters"
-        ],
-        "Writer": [
-          "Rosalind Wiseman"
-        ],
-        "year": [
-          2004
-        ],
-        "path": [
-          "/title/tt0377092/"
-        ],
-        "Popularity": [
-          90.861
-        ],
-        "Votes": [
-          7953
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          97
-        ],
-        "Taglines": [
-          "Welcome to girl world."
-        ],
-        "id": "a9563eed-f34d-4571-9291-863dd7ba84d9",
-        "movie_title": [
-          "Mean Girls"
-        ],
-        "User_Rating": [
-          "373K"
-        ],
-        "Top_5_Casts": [
-          "Tina Fey",
-          "Lindsay Lohan",
-          "Jonathan Bennett",
-          "Rachel McAdams",
-          "Mark Waters"
-        ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/2ZkuQXvVhh45uSvkBej4S7Ix1NJ.jpg"
-        ],
-        "_version_": 1782460403165429764
-      },
-      {
-        "Rating": [
-          6.2
-        ],
         "Generes": [
           "Comedy",
-          "Family",
-          "Fantasy"
+          "Drama",
+          "Family"
         ],
         "Overview": [
-          "On the outskirts of Whoville lives a green, revenge-seeking Grinch who plans to ruin Christmas for all of the citizens of the town."
+          "The Muppet characters tell their version of the classic tale of an old and bitter miser's redemption on Christmas Eve."
+        ],
+        "Keywords": [
+          "christmas eve",
+          "muppet",
+          "ghost",
+          "christmas movie",
+          "miser",
+          "christmas",
+          "redemption",
+          "bah humbug",
+          "second chance",
+          "lost love",
+          "holiday",
+          "london, england",
+          "based on novel or book",
+          "future",
+          "musical",
+          "past",
+          "redemption",
+          "puppetry",
+          "ghost",
+          "christmas music",
+          "christmas",
+          "19th century",
+          "victorian era",
+          "christmas eve",
+          "christmas dinner"
+        ],
+        "movie_title": [
+          "The Muppet Christmas Carol"
+        ]
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Family"
+        ],
+        "Overview": [
+          "The story of sister and brother, Kate and Teddy Pierce, whose Christmas Eve plan to catch Santa Claus on camera turns into an unexpected journey that most kids could only dream about."
         ],
         "Keywords": [
           "christmas",
-          "dog",
-          "dr. seuss' how the grinch stole christmas",
-          "dr seuss",
-          "monster",
-          "the color green",
-          "blockbuster",
-          "surrealism",
-          "villain turns good",
-          "santa costume",
-          "holiday",
-          "based on novel or book",
-          "christmas party",
-          "new love",
+          "reindeer",
+          "christmas spirit",
+          "santa's sleigh",
+          "brother sister relationship",
           "santa claus",
-          "village",
-          "thief",
-          "surrealism",
-          "public humiliation",
+          "naughty or nice",
+          "stealing a car",
+          "police car chase",
+          "video camera",
+          "holiday",
+          "massachusetts",
+          "camera",
+          "santa claus",
+          "brother",
+          "sister",
+          "north pole",
+          "journey",
+          "christmas spirit",
           "christmas",
-          "surreal world"
+          "chronicles"
         ],
-        "Director": [
-          "Ron Howard"
-        ],
-        "Writer": [
-          "Dr. Seuss"
-        ],
-        "year": [
-          2000
-        ],
-        "path": [
-          "/title/tt0170016/"
-        ],
-        "Popularity": [
-          70.703
-        ],
-        "Votes": [
-          6701
-        ],
-        "Adult": [
-          false
-        ],
-        "Runtime": [
-          104
-        ],
-        "Taglines": [
-          "He puts the mean in green."
-        ],
-        "id": "f2c8f985-e53a-41bf-a914-fe67d6b95181",
         "movie_title": [
-          "How the Grinch Stole Christmas"
+          "The Christmas Chronicles"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Western"
         ],
-        "User_Rating": [
-          "241K"
+        "Overview": [
+          "Eric comes to El Camino looking for his unknown dad. He's harassed, hit and jailed by a drunk local cop, who later shoots at a liquor mart with Eric +4 inside. The sheriff and deputy then shoot up the place, answering each other's fire."
         ],
-        "Top_5_Casts": [
-          "Jeffrey Price",
-          "Peter S. Seaman",
-          "Jim Carrey",
-          "Taylor Momsen",
-          "Kelley"
+        "Keywords": [
+          "christmas",
+          "christmas tree",
+          "f word",
+          "profanity",
+          "dark comedy",
+          "police standoff",
+          "natal",
+          "christmas",
+          "christmas eve"
         ],
-        "Poster_Image": [
-          "http://image.tmdb.org/t/p/w500/1WZbbPApEivA421gCOluuzMMKCk.jpg"
+        "movie_title": [
+          "El Camino Christmas"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Fantasy"
         ],
-        "_version_": 1782460403206324226
+        "Overview": [
+          "A selfish, cynical television executive is haunted by three spirits bearing lessons on Christmas Eve."
+        ],
+        "Keywords": [
+          "ghost",
+          "christmas",
+          "compassion",
+          "greed",
+          "redemption",
+          "tv show",
+          "unemployment",
+          "christmas show",
+          "hallucination",
+          "based on novel",
+          "holiday",
+          "tv ratings",
+          "ghost",
+          "duringcreditsstinger",
+          "christmas music",
+          "christmas"
+        ],
+        "movie_title": [
+          "Scrooged"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Family"
+        ],
+        "Overview": [
+          "When a man inadvertently makes Santa fall off his roof on Christmas Eve, he finds himself magically recruited to take his place."
+        ],
+        "Keywords": [
+          "christmas",
+          "santa claus character",
+          "divorce",
+          "falling off a roof",
+          "santa's sleigh",
+          "christmas season",
+          "christmas in danger",
+          "dog",
+          "blockbuster",
+          "heartbeat",
+          "holiday",
+          "chicago, illinois",
+          "christmas party",
+          "santa claus",
+          "deal",
+          "christmas tree",
+          "child custody",
+          "christmas",
+          "father son relationship",
+          "christmas eve"
+        ],
+        "movie_title": [
+          "The Santa Clause"
+        ]
+      },
+      {
+        "Generes": [
+          "Drama"
+        ],
+        "Overview": [
+          "A drug addicted teenage boy shows up unexpectedly at his family's home on Christmas Eve."
+        ],
+        "Keywords": [
+          "drug dealing",
+          "mother son relationship",
+          "group therapy",
+          "drug dealer",
+          "mother daughter relationship",
+          "interracial marriage",
+          "interracial romance",
+          "snow",
+          "christmas",
+          "brother sister relationship",
+          "drug addiction",
+          "drug rehabilitation",
+          "yonkers, new york",
+          "christmas",
+          "mother son relationship",
+          "stolen dog"
+        ],
+        "movie_title": [
+          "Ben Is Back"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "A cat burglar is forced to take a bickering, dysfunctional family hostage on Christmas Eve."
+        ],
+        "Keywords": [
+          "thief",
+          "hostage",
+          "dysfunctional family",
+          "christmas",
+          "marriage counselor",
+          "extramarital affair",
+          "unhappy marriage",
+          "marital crisis",
+          "stockholm syndrome",
+          "envelope of money",
+          "holiday",
+          "robbery",
+          "parent child relationship",
+          "burglar",
+          "christmas party",
+          "hostage",
+          "blackmail",
+          "santa claus",
+          "bad mother-in-law",
+          "mother-in-law",
+          "liberation of hostage",
+          "police",
+          "connecticut",
+          "thief",
+          "dysfunctional family",
+          "dark comedy",
+          "man hunt",
+          "dinner",
+          "alcoholic",
+          "christmas",
+          "marriage counseling"
+        ],
+        "movie_title": [
+          "The Ref"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "A hooker tears through Tinseltown on Christmas Eve searching for the pimp who broke her heart."
+        ],
+        "Keywords": [
+          "christmas eve",
+          "friendship",
+          "shot on phone",
+          "unfaithful boyfriend",
+          "pimp",
+          "transgender",
+          "revenge",
+          "infidelity",
+          "handheld camera",
+          "male nudity",
+          "taxi",
+          "prostitute",
+          "transsexuality",
+          "taxi driver",
+          "laundromat",
+          "singer",
+          "hollywood",
+          "los angeles, california",
+          "ex-con",
+          "lgbt",
+          "black lgbt",
+          "christmas",
+          "trans woman",
+          "transsexual prostitute",
+          "shot on iphone",
+          "christmas eve",
+          "lgbt interest"
+        ],
+        "movie_title": [
+          "Tangerine"
+        ]
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Horror"
+        ],
+        "Overview": [
+          "It's Christmas Eve, and three cosplaying women come across the malevolent Christmas demon Krampus. The girls must team up with Santa Claus himself to battle the creature and save the world."
+        ],
+        "Keywords": [
+          "girl",
+          "christmas",
+          "christmas horror",
+          "christmas",
+          "krampus"
+        ],
+        "movie_title": [
+          "Slay Belles"
+        ]
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Horror",
+          "Thriller"
+        ],
+        "Overview": [
+          "A businesswoman is pursued by a psychopath after being locked in a parking garage on Christmas Eve."
+        ],
+        "Keywords": [
+          "tied to a chair",
+          "christmas eve",
+          "locked in a room",
+          "obsession",
+          "parking garage",
+          "psychopath",
+          "security guard",
+          "stabbed with a fork",
+          "bitten in the leg",
+          "animal attack",
+          "kidnapping",
+          "parking garage",
+          "basement garage",
+          "psychopath",
+          "security guard",
+          "executive",
+          "christmas"
+        ],
+        "movie_title": [
+          "P2"
+        ]
       }
     ]
   }

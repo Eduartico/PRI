@@ -1,16 +1,16 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 3,
+    "QTime": 35,
     "params": {
       "q": "animation princess",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords Overview",
+      "qf": "movie_title Keywords^2 Overview^3",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
       "wt": "json",
-      "bq": "movie_title:princess movie_title:animation Keywords:animation Keywords:princess Overview:princess Overview:animation "
+      "bq": "movie_title:princess^2 movie_title:animation Keywords:animation^2 Keywords:princess^2 Overview:princess^3 Overview:animation^3 "
     }
   },
   "response": {
@@ -74,26 +74,56 @@
         "Generes": [
           "Animation",
           "Adventure",
+          "Family"
+        ],
+        "Overview": [
+          "Rainbow Brite must stop an evil princess and her underlings from taking over the planet Spectra."
+        ],
+        "Keywords": [
+          "heroine",
+          "key",
+          "child in jeopardy",
+          "lifting a male into the air",
+          "princess",
+          "rainbow",
+          "rainbow brite",
+          "winter",
+          "color",
+          "horse",
+          "magic",
+          "cartoon",
+          "greeting card",
+          "western animation"
+        ],
+        "movie_title": [
+          "Rainbow Brite and the Star Stealer"
+        ]
+      },
+      {
+        "Generes": [
+          "Animation",
+          "Adventure",
           "Comedy"
         ],
         "Overview": [
-          "A naive princess, her beloved cat and a poor mining boy team up to save their kingdom from a nasty underground realm of bad-mannered goblins."
+          "After his swamp is filled with magical creatures, Shrek agrees to rescue Princess Fiona for a villainous lord in order to get his land back."
         ],
         "Keywords": [
-          "star died before release",
-          "king",
-          "cult film",
-          "hungary",
+          "rescue",
+          "ogre",
+          "donkey",
           "princess",
-          "goblin",
-          "2d animation",
-          "independent film",
-          "based on book",
-          "princess",
-          "goblin"
+          "remake",
+          "dragon",
+          "youtube",
+          "youtube video",
+          "fan remake",
+          "fan animation",
+          "spoof",
+          "fan made"
         ],
         "movie_title": [
-          "The Princess and the Goblin"
+          "Shrek Retold"
         ]
       },
       {
@@ -133,79 +163,23 @@
           "Comedy"
         ],
         "Overview": [
-          "After his swamp is filled with magical creatures, Shrek agrees to rescue Princess Fiona for a villainous lord in order to get his land back."
+          "A naive princess, her beloved cat and a poor mining boy team up to save their kingdom from a nasty underground realm of bad-mannered goblins."
         ],
         "Keywords": [
-          "rescue",
-          "ogre",
-          "donkey",
+          "star died before release",
+          "king",
+          "cult film",
+          "hungary",
           "princess",
-          "remake",
-          "dragon",
-          "youtube",
-          "youtube video",
-          "fan remake",
-          "fan animation",
-          "spoof",
-          "fan made"
+          "goblin",
+          "2d animation",
+          "independent film",
+          "based on book",
+          "princess",
+          "goblin"
         ],
         "movie_title": [
-          "Shrek Retold"
-        ]
-      },
-      {
-        "Generes": [
-          "Animation",
-          "Adventure",
-          "Family"
-        ],
-        "Overview": [
-          "Rainbow Brite must stop an evil princess and her underlings from taking over the planet Spectra."
-        ],
-        "Keywords": [
-          "heroine",
-          "key",
-          "child in jeopardy",
-          "lifting a male into the air",
-          "princess",
-          "rainbow",
-          "rainbow brite",
-          "winter",
-          "color",
-          "horse",
-          "magic",
-          "cartoon",
-          "greeting card",
-          "western animation"
-        ],
-        "movie_title": [
-          "Rainbow Brite and the Star Stealer"
-        ]
-      },
-      {
-        "Generes": [
-          "Adventure",
-          "Comedy",
-          "Family"
-        ],
-        "Overview": [
-          "Lizzie McGuire has graduated from middle school and takes a trip to Rome, Italy with her class. And what was supposed to be only a normal trip, becomes a teenager's dream come true."
-        ],
-        "Keywords": [
-          "actress",
-          "princess",
-          "rome italy",
-          "colosseum rome",
-          "character name as title",
-          "lizzie mcguire character",
-          "live action and animation",
-          "europe",
-          "italy",
-          "italian",
-          "rome, italy"
-        ],
-        "movie_title": [
-          "The Lizzie McGuire Movie"
+          "The Princess and the Goblin"
         ]
       },
       {
@@ -241,6 +215,75 @@
       },
       {
         "Generes": [
+          "Action",
+          "Adventure",
+          "Family"
+        ],
+        "Overview": [
+          "When a princess is shrunken by an evil wizard, Sinbad must undertake a quest to an island of monsters to cure her and prevent a war."
+        ],
+        "Keywords": [
+          "sword and sandal",
+          "arabian",
+          "national film registry",
+          "storm at sea",
+          "bare chested male",
+          "hairy chest",
+          "male female relationship",
+          "male male relationship",
+          "good versus evil",
+          "psychotronic film",
+          "island",
+          "magic",
+          "sultan",
+          "giant bird",
+          "sinbad / sindbad",
+          "stop motion",
+          "dragon",
+          "cyclops",
+          "siren",
+          "technicolor",
+          "genie",
+          "claymation",
+          "ancient middle east",
+          "magic lamp",
+          "mad magician",
+          "threatened war",
+          "model animation",
+          "8th century"
+        ],
+        "movie_title": [
+          "The 7th Voyage of Sinbad"
+        ]
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Family"
+        ],
+        "Overview": [
+          "Lizzie McGuire has graduated from middle school and takes a trip to Rome, Italy with her class. And what was supposed to be only a normal trip, becomes a teenager's dream come true."
+        ],
+        "Keywords": [
+          "actress",
+          "princess",
+          "rome italy",
+          "colosseum rome",
+          "character name as title",
+          "lizzie mcguire character",
+          "live action and animation",
+          "europe",
+          "italy",
+          "italian",
+          "rome, italy"
+        ],
+        "movie_title": [
+          "The Lizzie McGuire Movie"
+        ]
+      },
+      {
+        "Generes": [
           "Animation",
           "Adventure",
           "Comedy"
@@ -270,43 +313,6 @@
         ],
         "movie_title": [
           "Ralph Breaks the Internet"
-        ]
-      },
-      {
-        "Generes": [
-          "Animation",
-          "Adventure",
-          "Comedy"
-        ],
-        "Overview": [
-          "An alliance of evil-doers, led by Frieda, looks to take over Fairy Tale Land. But when Ella realizes her stepmother is out to ruin her storybook existence, she takes a dramatic turn and blossoms into the leader of the resistance effort."
-        ],
-        "Keywords": [
-          "pun in title",
-          "germany",
-          "parody comedy",
-          "cinderella",
-          "cgi animation",
-          "first of series",
-          "apostrophe in title",
-          "punctuation in title",
-          "three word title",
-          "computer animation",
-          "dwarf",
-          "wolf",
-          "bad mother-in-law",
-          "prince",
-          "fairy tale",
-          "little red riding hood",
-          "stepmother",
-          "princess",
-          "rumpelstiltskin",
-          "intern",
-          "wizard",
-          "woman director"
-        ],
-        "movie_title": [
-          "Happily N'Ever After"
         ]
       }
     ]

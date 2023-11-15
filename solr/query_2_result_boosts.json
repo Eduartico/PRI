@@ -1,16 +1,16 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 6,
+    "QTime": 18,
     "params": {
       "q": "teen romance",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords Overview",
+      "qf": "movie_title Keywords^2 Overview^3",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
       "wt": "json",
-      "bq": "movie_title:romance Generes:Romance Keywords:teen Keywords:romance Overview:teen Overview:romance "
+      "bq": "movie_title:romance^2 Generes:Romance^3 Keywords:teen^2 Keywords:romance^2 Overview:teen^2 Overview:romance^2 "
     }
   },
   "response": {
@@ -18,37 +18,6 @@
     "start": 0,
     "numFoundExact": true,
     "docs": [
-      {
-        "Generes": [
-          "Comedy",
-          "Fantasy",
-          "Romance"
-        ],
-        "Overview": [
-          "High school misfit Louise, at a loss for romance, discovers magical abilities, but the teenage witch finds that she cannot conjure herself true love, so what?"
-        ],
-        "Keywords": [
-          "rap",
-          "teenage girl",
-          "magic",
-          "dream",
-          "fortune teller",
-          "dog",
-          "witch",
-          "bathtub",
-          "brother sister relationship",
-          "amulet",
-          "witch",
-          "high school",
-          "teen movie",
-          "teen witch",
-          "magic spell",
-          "teenager"
-        ],
-        "movie_title": [
-          "Teen Witch"
-        ]
-      },
       {
         "Generes": [
           "Comedy",
@@ -109,60 +78,33 @@
       },
       {
         "Generes": [
-          "Adventure",
           "Comedy",
+          "Fantasy",
           "Romance"
         ],
         "Overview": [
-          "An American teenager living in Paris meets and falls in love with a local."
+          "High school misfit Louise, at a loss for romance, discovers magical abilities, but the teenage witch finds that she cannot conjure herself true love, so what?"
         ],
         "Keywords": [
-          "foreign language adaptation",
-          "paris france",
-          "first love",
-          "based on novel",
-          "literature on screen",
-          "european literature on screen",
-          "french literature on screen",
-          "20th century literature on screen",
-          "1970s literature on screen",
-          "bridge of sighs venice",
-          "paris, france",
-          "venice, italy",
-          "bridge",
-          "road trip",
-          "teen angst",
+          "rap",
           "teenage girl",
-          "teenage boy",
-          "young love"
-        ],
-        "movie_title": [
-          "A Little Romance"
-        ]
-      },
-      {
-        "Generes": [
-          "Comedy",
-          "Crime",
-          "Drama"
-        ],
-        "Overview": [
-          "As four friends prepare for life after high school, different challenges bring about turning points in each of their lives. The dramas unfold and resolve at their local rollerskating rink, Cascade."
-        ],
-        "Keywords": [
-          "hood",
-          "rollerskating rink",
+          "magic",
+          "dream",
+          "fortune teller",
+          "dog",
+          "witch",
+          "bathtub",
+          "brother sister relationship",
+          "amulet",
+          "witch",
           "high school",
-          "teenager",
-          "teen romance",
-          "teen comedy",
-          "coming of age",
-          "spelman college",
-          "voice over narration",
-          "twin"
+          "teen movie",
+          "teen witch",
+          "magic spell",
+          "teenager"
         ],
         "movie_title": [
-          "ATL"
+          "Teen Witch"
         ]
       },
       {
@@ -191,60 +133,6 @@
         ],
         "movie_title": [
           "Save the Last Dance"
-        ]
-      },
-      {
-        "Generes": [
-          "Animation",
-          "Adventure",
-          "Comedy"
-        ],
-        "Overview": [
-          "The prehistoric family the Croods are challenged by a rival family the Bettermans, who claim to be better and more evolved."
-        ],
-        "Keywords": [
-          "caveman",
-          "second part",
-          "sidekick",
-          "teen romance",
-          "fire",
-          "sun",
-          "prehistory",
-          "teenager",
-          "story telling",
-          "gated compound",
-          "sequel",
-          "prehistory"
-        ],
-        "movie_title": [
-          "The Croods: A New Age"
-        ]
-      },
-      {
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Mystery"
-        ],
-        "Overview": [
-          "A teenager encounters romance, intrigue and a search for stolen jewels during her visit to the island of Crete."
-        ],
-        "Keywords": [
-          "man wears a swimsuit",
-          "woman wears a nightgown",
-          "crete",
-          "emerald",
-          "teenage girl",
-          "brother sister relationship",
-          "aunt niece relationship",
-          "tied up",
-          "shot in the arm",
-          "teen romance",
-          "crete",
-          "teenage girl"
-        ],
-        "movie_title": [
-          "The Moon-Spinners"
         ]
       },
       {
@@ -281,6 +169,72 @@
       },
       {
         "Generes": [
+          "Adventure",
+          "Family",
+          "Mystery"
+        ],
+        "Overview": [
+          "A teenager encounters romance, intrigue and a search for stolen jewels during her visit to the island of Crete."
+        ],
+        "Keywords": [
+          "man wears a swimsuit",
+          "woman wears a nightgown",
+          "crete",
+          "emerald",
+          "teenage girl",
+          "brother sister relationship",
+          "aunt niece relationship",
+          "tied up",
+          "shot in the arm",
+          "teen romance",
+          "crete",
+          "teenage girl"
+        ],
+        "movie_title": [
+          "The Moon-Spinners"
+        ]
+      },
+      {
+        "Generes": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "A bullied teen who fantasizes about being Chuck Norris' sidekick trains in martial arts to fulfill his dreams."
+        ],
+        "Keywords": [
+          "martial arts",
+          "mentor",
+          "combat sport",
+          "karate",
+          "computer",
+          "bully",
+          "opening action scene",
+          "martial arts training",
+          "teenager fighting adult",
+          "teenage boy",
+          "martial arts",
+          "karate",
+          "bully",
+          "martial arts tournament",
+          "martial arts training",
+          "chinese restaurant",
+          "asthmatic",
+          "nunchaku",
+          "daydreaming",
+          "gym instructor",
+          "computer programmer",
+          "student mentor relationship",
+          "parent teacher romance",
+          "training-montage"
+        ],
+        "movie_title": [
+          "Sidekicks"
+        ]
+      },
+      {
+        "Generes": [
           "Drama"
         ],
         "Overview": [
@@ -304,6 +258,58 @@
         ],
         "movie_title": [
           "Giant Little Ones"
+        ]
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "This coming of age story follows Mina, a rebellious teen who faces a life-changing decision. After moving in with her sister, Mina's romance with a playboy DJ leads her to help him raise 11,000 Euros. But how far will Mina have to go to make the debt?"
+        ],
+        "Keywords": [
+          "cool",
+          "sex scene",
+          "female rear nudity",
+          "bathtub"
+        ],
+        "movie_title": [
+          "BitterS\u00fc\u00df"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "A rich girl whose family summers on Cape Cod has a romance with a local poor boy who hopes to become a major league baseball player."
+        ],
+        "Keywords": [
+          "girl wears panties",
+          "chatham massachusetts",
+          "peroxide blonde",
+          "female removes her clothes",
+          "climbing out of a swimming pool",
+          "braless teen",
+          "team mascot",
+          "talent scout",
+          "implied sex",
+          "orange panties",
+          "beach",
+          "baseball",
+          "sports",
+          "bikini",
+          "love",
+          "romance",
+          "flashback",
+          "summer",
+          "cape cod"
+        ],
+        "movie_title": [
+          "Summer Catch"
         ]
       }
     ]
