@@ -20,14 +20,12 @@ def get_movie_details(api_key, movie_id):
     }
     response = requests.get(url, headers=headers)
 
-    # Check if the request was successful (status code 200)
     if response.status_code == 200:
         # Return the JSON response
         return response.json()
-    else:
-        # Print API request error and return None
-        print(f"Error fetching movie details for movie ID {movie_id}. Status code: {response.status_code}")
-        return None
+    # Print API request error and return None
+    print(f"Error fetching movie details for movie ID {movie_id}. Status code: {response.status_code}")
+    return None
 
 def get_movie_keywords(api_key, movie_id):
     base_url = "https://api.themoviedb.org/3/movie/"
@@ -38,15 +36,13 @@ def get_movie_keywords(api_key, movie_id):
     }
     response = requests.get(url, headers=headers)
 
-    # Check if the request was successful (status code 200)
     if response.status_code == 200:
         # Return the JSON response
         #print(response.json())
         return response.json()
-    else:
-        # Print API request error and return None
-        print(f"Error fetching movie details for movie ID {movie_id}. Status code: {response.status_code}")
-        return None
+    # Print API request error and return None
+    print(f"Error fetching movie details for movie ID {movie_id}. Status code: {response.status_code}")
+    return None
 
 def has_non_numeric(title):
     return bool(re.search(r'[^\d]', title))
@@ -111,7 +107,7 @@ movie_count = 1
 
 # Iterate through each movie title in the DataFrame
 for movie_title in data['movie title']:
-    url = base_url + f"?query={movie_title}&include_adult=true&page=1"
+    url = f"{base_url}?query={movie_title}&include_adult=true&page=1"
     headers = {
         "accept": "application/json",
         "Authorization": f"{api_key}"
@@ -120,9 +116,7 @@ for movie_title in data['movie title']:
 
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
-        results = response.json().get('results', [])  # Get the 'results' list or an empty list if not found
-
-        if results:
+        if results := response.json().get('results', []):
             result = results[0]  # Take the first result
             # Extract the desired data
             movie_id = result.get('id', None)
@@ -154,10 +148,7 @@ for movie_title in data['movie title']:
 
             runtimes.append(runtime)
             taglines.append(tagline)
-            keyword_names = []
-            for keyword in keywords:
-                keyword_names.append(keyword['name'])
-        
+            keyword_names = [keyword['name'] for keyword in keywords]
             # Append the movie's keywords to the movie_keywords list
             #print(type(keyword_names))
             if keyword_names is None:
@@ -166,9 +157,6 @@ for movie_title in data['movie title']:
                 movie_keywords.append(keyword_names)
 
             sleep(0.015)
-            #print(
-                #"Added this release date: " + str(votes[-1]) + " " + str(popularity[-1]) + " " + str(adult[-1]) + " " + str(
-                    #poster_images[-1]) + " to movie " + movie_title)
         else:
             # Handle the case when no results are found for the movie title
             popularity.append(np.nan)
@@ -210,7 +198,7 @@ for sublista1, sublista2 in zip(lista1, movie_keywords):
         aux_list.append(sublista2)
     else:
         aux_list.append([])
-    
+
 
 data['Keywords'] = aux_list
 
