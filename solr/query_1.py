@@ -1,5 +1,6 @@
 import requests
 import json
+import urllib.parse
 
 SELECT_URL = 'http://localhost:8983/solr/movies/select'
 
@@ -12,8 +13,8 @@ params = {
     'q.op': 'AND',
     'qf' : 'movie_title Keywords Overview',
     "fl" : "movie_title, Overview, Generes, Keywords",
-    'bq': 'movie_title:christmas Generes:Comedy Generes:Family Keywords:Christmas Keywords:christmas Overview: christmas ',
     'wt': 'json',
+    'rows': 20
 }
 '''
 params = {
@@ -21,12 +22,20 @@ params = {
     'q': 'christmas eve',
     'indent': 'true',
     'q.op': 'AND',
-    'qf' : 'movie_title Keywords^3 Overview^2',
+    'qf' : 'movie_title Keywords^10 Overview^5',
     "fl" : "movie_title, Overview, Generes, Keywords",
-    'bq': 'movie_title:christmas^2 Generes:Comedy Generes:Family Keywords:Christmas^2 Keywords:christmas^3 Overview: christmas^2 ',
     'wt': 'json',
+    'rows': 20
+
 }
 '''
+
+query_string = urllib.parse.urlencode(params)
+
+# Combine the base URL and the query string
+full_url = urllib.parse.urlunparse(('http', SELECT_URL, '', '', query_string, ''))
+
+print(full_url)
 # Faz a solicitação HTTP
 response = requests.get(SELECT_URL, params=params)
 
@@ -35,5 +44,5 @@ result_json = response.json()
 
 
 # Imprime a resposta com indentação
-print(json.dumps(result_json, indent=2))
+#print(json.dumps(result_json, indent=2))
 

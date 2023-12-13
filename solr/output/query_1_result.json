@@ -1,0 +1,353 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 6,
+    "params": {
+      "q": "christmas eve",
+      "defType": "edismax",
+      "indent": "true",
+      "qf": "movie_title Keywords Overview",
+      "fl": "movie_title, Overview, Generes, Keywords",
+      "q.op": "AND",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 49,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Western"
+        ],
+        "Overview": [
+          "Eric comes to El Camino looking for his unknown dad. He's harassed, hit and jailed by a drunk local cop, who later shoots at a liquor mart with Eric +4 inside. The sheriff and deputy then shoot up the place, answering each other's fire."
+        ],
+        "Keywords": [
+          "christmas",
+          "christmas tree",
+          "f word",
+          "profanity",
+          "dark comedy",
+          "police standoff",
+          "natal",
+          "christmas",
+          "christmas eve"
+        ],
+        "movie_title": [
+          "El Camino Christmas"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Fantasy"
+        ],
+        "Overview": [
+          "A selfish, cynical television executive is haunted by three spirits bearing lessons on Christmas Eve."
+        ],
+        "Keywords": [
+          "ghost",
+          "christmas",
+          "compassion",
+          "greed",
+          "redemption",
+          "tv show",
+          "unemployment",
+          "christmas show",
+          "hallucination",
+          "based on novel",
+          "holiday",
+          "tv ratings",
+          "ghost",
+          "duringcreditsstinger",
+          "christmas music",
+          "christmas"
+        ],
+        "movie_title": [
+          "Scrooged"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Family"
+        ],
+        "Overview": [
+          "The Muppet characters tell their version of the classic tale of an old and bitter miser's redemption on Christmas Eve."
+        ],
+        "Keywords": [
+          "christmas eve",
+          "muppet",
+          "ghost",
+          "christmas movie",
+          "miser",
+          "christmas",
+          "redemption",
+          "bah humbug",
+          "second chance",
+          "lost love",
+          "holiday",
+          "london, england",
+          "based on novel or book",
+          "future",
+          "musical",
+          "past",
+          "redemption",
+          "puppetry",
+          "ghost",
+          "christmas music",
+          "christmas",
+          "19th century",
+          "victorian era",
+          "christmas eve",
+          "christmas dinner"
+        ],
+        "movie_title": [
+          "The Muppet Christmas Carol"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Family"
+        ],
+        "Overview": [
+          "When a man inadvertently makes Santa fall off his roof on Christmas Eve, he finds himself magically recruited to take his place."
+        ],
+        "Keywords": [
+          "christmas",
+          "santa claus character",
+          "divorce",
+          "falling off a roof",
+          "santa's sleigh",
+          "christmas season",
+          "christmas in danger",
+          "dog",
+          "blockbuster",
+          "heartbeat",
+          "holiday",
+          "chicago, illinois",
+          "christmas party",
+          "santa claus",
+          "deal",
+          "christmas tree",
+          "child custody",
+          "christmas",
+          "father son relationship",
+          "christmas eve"
+        ],
+        "movie_title": [
+          "The Santa Clause"
+        ]
+      },
+      {
+        "Generes": [
+          "Drama"
+        ],
+        "Overview": [
+          "A drug addicted teenage boy shows up unexpectedly at his family's home on Christmas Eve."
+        ],
+        "Keywords": [
+          "drug dealing",
+          "mother son relationship",
+          "group therapy",
+          "drug dealer",
+          "mother daughter relationship",
+          "interracial marriage",
+          "interracial romance",
+          "snow",
+          "christmas",
+          "brother sister relationship",
+          "drug addiction",
+          "drug rehabilitation",
+          "yonkers, new york",
+          "christmas",
+          "mother son relationship",
+          "stolen dog"
+        ],
+        "movie_title": [
+          "Ben Is Back"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "A cat burglar is forced to take a bickering, dysfunctional family hostage on Christmas Eve."
+        ],
+        "Keywords": [
+          "thief",
+          "hostage",
+          "dysfunctional family",
+          "christmas",
+          "marriage counselor",
+          "extramarital affair",
+          "unhappy marriage",
+          "marital crisis",
+          "stockholm syndrome",
+          "envelope of money",
+          "holiday",
+          "robbery",
+          "parent child relationship",
+          "burglar",
+          "christmas party",
+          "hostage",
+          "blackmail",
+          "santa claus",
+          "bad mother-in-law",
+          "mother-in-law",
+          "liberation of hostage",
+          "police",
+          "connecticut",
+          "thief",
+          "dysfunctional family",
+          "dark comedy",
+          "man hunt",
+          "dinner",
+          "alcoholic",
+          "christmas",
+          "marriage counseling"
+        ],
+        "movie_title": [
+          "The Ref"
+        ]
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "A hooker tears through Tinseltown on Christmas Eve searching for the pimp who broke her heart."
+        ],
+        "Keywords": [
+          "christmas eve",
+          "friendship",
+          "shot on phone",
+          "unfaithful boyfriend",
+          "pimp",
+          "transgender",
+          "revenge",
+          "infidelity",
+          "handheld camera",
+          "male nudity",
+          "taxi",
+          "prostitute",
+          "transsexuality",
+          "taxi driver",
+          "laundromat",
+          "singer",
+          "hollywood",
+          "los angeles, california",
+          "ex-con",
+          "lgbt",
+          "black lgbt",
+          "christmas",
+          "trans woman",
+          "transsexual prostitute",
+          "shot on iphone",
+          "christmas eve",
+          "lgbt interest"
+        ],
+        "movie_title": [
+          "Tangerine"
+        ]
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Horror"
+        ],
+        "Overview": [
+          "It's Christmas Eve, and three cosplaying women come across the malevolent Christmas demon Krampus. The girls must team up with Santa Claus himself to battle the creature and save the world."
+        ],
+        "Keywords": [
+          "girl",
+          "christmas",
+          "christmas horror",
+          "christmas",
+          "krampus"
+        ],
+        "movie_title": [
+          "Slay Belles"
+        ]
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Horror",
+          "Thriller"
+        ],
+        "Overview": [
+          "A businesswoman is pursued by a psychopath after being locked in a parking garage on Christmas Eve."
+        ],
+        "Keywords": [
+          "tied to a chair",
+          "christmas eve",
+          "locked in a room",
+          "obsession",
+          "parking garage",
+          "psychopath",
+          "security guard",
+          "stabbed with a fork",
+          "bitten in the leg",
+          "animal attack",
+          "kidnapping",
+          "parking garage",
+          "basement garage",
+          "psychopath",
+          "security guard",
+          "executive",
+          "christmas"
+        ],
+        "movie_title": [
+          "P2"
+        ]
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "Overview": [
+          "Residents of a friendly Pennsylvania town foil three brothers' plan to rob a bank on Christmas Eve."
+        ],
+        "Keywords": [
+          "brother brother relationship",
+          "hostage",
+          "christmas",
+          "bank robbery",
+          "heist",
+          "small town",
+          "parole",
+          "police",
+          "rescue",
+          "restaurant",
+          "holiday",
+          "pennsylvania, usa",
+          "small town",
+          "bank robbery",
+          "ex-con",
+          "christmas",
+          "brothers"
+        ],
+        "movie_title": [
+          "Trapped in Paradise"
+        ]
+      }
+    ]
+  }
+}

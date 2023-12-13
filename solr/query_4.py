@@ -1,11 +1,13 @@
 import requests
 import json
+import urllib.parse
+
 
 SELECT_URL = 'http://localhost:8983/solr/movies/select'
 
 # filmes de animação que tenham princesas 
 
-'''
+
 params = {
     'defType': 'edismax',
     'q': 'animation princess',
@@ -29,16 +31,16 @@ params = {
     'bq': 'movie_title:princess^2 movie_title:animation Keywords:animation^2 Keywords:princess^2 Overview:princess^3 Overview:animation^3 ',
     'wt': 'json',
 }
+'''
 
 
-# Faz a solicitação HTTP
-response = requests.get(SELECT_URL, params=params)
+query_string = urllib.parse.urlencode(params)
 
-# Obtém o JSON da resposta
-result_json = response.json()
+# Combine the base URL and the query string
+full_url = urllib.parse.urlunparse(('http', SELECT_URL, '', '', query_string, ''))
 
-# Imprime a resposta com indentação
-print(json.dumps(result_json, indent=2))
+print(full_url)
+
 
 
 

@@ -25,10 +25,11 @@
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.StopFilterFactory"},
                     {"class": "solr.PorterStemFilterFactory"},
-                    {"class": "solr.SynonymGraphFilterFactory", "expand": true, "ignoreCase": true,"synonyms": "synonyms.txt"}
+                    {"class": "solr.SynonymGraphFilterFactory", "expand": true, "ignoreCase": true,"synonyms": "synonyms_file.txt"}
                 ]
             }
         },
+        
         {
             
             "name": "title",
