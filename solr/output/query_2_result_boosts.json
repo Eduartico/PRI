@@ -1,282 +1,95 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 18,
+    "QTime": 3,
     "params": {
       "q": "teen romance",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords^2 Overview^3",
+      "qf": "movie_title Keywords^10 Overview^5 Generes",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
-      "wt": "json",
-      "bq": "movie_title:romance^2 Generes:Romance^3 Keywords:teen^2 Keywords:romance^2 Overview:teen^2 Overview:romance^2 "
+      "wt": "json"
     }
   },
   "response": {
-    "numFound": 41,
+    "numFound": 126,
     "start": 0,
     "numFoundExact": true,
     "docs": [
       {
         "Generes": [
           "Comedy",
-          "Romance"
-        ],
-        "Overview": [
-          "A group of carefree high school seniors are having the time of their lives, filled with sex, romance, and teen high jinks."
-        ],
-        "Keywords": [
-          "cheerleader",
-          "small town",
-          "van",
-          "romantic rivalry",
-          "brawl",
-          "bikini",
-          "teenage boy",
-          "teenage girl",
-          "feud",
-          "coach",
-          "american football",
-          "cheerleader",
-          "beer",
-          "high school",
-          "street race",
-          "teen angst",
-          "drag racing"
-        ],
-        "movie_title": [
-          "The Pom Pom Girls"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama",
-          "Romance"
-        ],
-        "Overview": [
-          "A self-made businessman rekindles a romance with a former flame while their two teenage children begin a romance of their own with drastic consequences for both couples."
-        ],
-        "Keywords": [
-          "1950s",
-          "maine",
-          "teen movie",
-          "man wears a swimsuit",
-          "scene during opening credits",
-          "exclusive community",
-          "dysfunctional husband wife relationship",
-          "alcoholic",
-          "handyman",
-          "research scientist",
-          "businessman",
-          "summer",
-          "former flame"
-        ],
-        "movie_title": [
-          "A Summer Place"
-        ]
-      },
-      {
-        "Generes": [
-          "Comedy",
-          "Fantasy",
-          "Romance"
-        ],
-        "Overview": [
-          "High school misfit Louise, at a loss for romance, discovers magical abilities, but the teenage witch finds that she cannot conjure herself true love, so what?"
-        ],
-        "Keywords": [
-          "rap",
-          "teenage girl",
-          "magic",
-          "dream",
-          "fortune teller",
-          "dog",
-          "witch",
-          "bathtub",
-          "brother sister relationship",
-          "amulet",
-          "witch",
-          "high school",
-          "teen movie",
-          "teen witch",
-          "magic spell",
-          "teenager"
-        ],
-        "movie_title": [
-          "Teen Witch"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama",
-          "Music",
-          "Romance"
-        ],
-        "Overview": [
-          "A white midwestern girl moves to Chicago, where her new boyfriend is a black teen from the South Side with a rough, semi-criminal past."
-        ],
-        "Keywords": [
-          "interracial romance",
-          "interracial relationship",
-          "dance movie",
-          "black man white woman romance",
-          "black man white woman sex",
-          "black man white woman kiss",
-          "black man white woman relationship",
-          "dance",
-          "ghetto",
-          "hip hop",
-          "ballet dancer",
-          "musical",
-          "ballet"
-        ],
-        "movie_title": [
-          "Save the Last Dance"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama",
-          "Romance",
-          "War"
-        ],
-        "Overview": [
-          "A rites of passage story of a bi-racial teen struggling for survival in Nazi Germany."
-        ],
-        "Keywords": [
-          "nazi germany",
-          "racism",
-          "biracial",
-          "romeo and juliet plot",
-          "directed by writer",
-          "written and directed by female",
-          "inspired by a historical event",
-          "rhineland germany",
-          "mother daughter relationship",
-          "brother sister relationship",
-          "jew persecution",
-          "nazi",
-          "hitler youth",
-          "interracial romance",
-          "coming of age",
-          "racism",
-          "1940s"
-        ],
-        "movie_title": [
-          "Where Hands Touch"
-        ]
-      },
-      {
-        "Generes": [
-          "Adventure",
-          "Family",
-          "Mystery"
-        ],
-        "Overview": [
-          "A teenager encounters romance, intrigue and a search for stolen jewels during her visit to the island of Crete."
-        ],
-        "Keywords": [
-          "man wears a swimsuit",
-          "woman wears a nightgown",
-          "crete",
-          "emerald",
-          "teenage girl",
-          "brother sister relationship",
-          "aunt niece relationship",
-          "tied up",
-          "shot in the arm",
-          "teen romance",
-          "crete",
-          "teenage girl"
-        ],
-        "movie_title": [
-          "The Moon-Spinners"
-        ]
-      },
-      {
-        "Generes": [
-          "Action",
-          "Adventure",
-          "Comedy"
-        ],
-        "Overview": [
-          "A bullied teen who fantasizes about being Chuck Norris' sidekick trains in martial arts to fulfill his dreams."
-        ],
-        "Keywords": [
-          "martial arts",
-          "mentor",
-          "combat sport",
-          "karate",
-          "computer",
-          "bully",
-          "opening action scene",
-          "martial arts training",
-          "teenager fighting adult",
-          "teenage boy",
-          "martial arts",
-          "karate",
-          "bully",
-          "martial arts tournament",
-          "martial arts training",
-          "chinese restaurant",
-          "asthmatic",
-          "nunchaku",
-          "daydreaming",
-          "gym instructor",
-          "computer programmer",
-          "student mentor relationship",
-          "parent teacher romance",
-          "training-montage"
-        ],
-        "movie_title": [
-          "Sidekicks"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama"
-        ],
-        "Overview": [
-          "Two popular teen boys, best friends since childhood, discover their lives, families, and girlfriends dramatically upended after an unexpected incident occurs on the night of a 17th birthday party."
-        ],
-        "Keywords": [
-          "teenage boy",
-          "teenage girl",
-          "teenager",
-          "kiss",
-          "teenage protagonist",
-          "gay",
-          "boyfriend girlfriend relationship",
-          "violence",
-          "bully",
-          "best friend",
-          "homophobia",
-          "coming of age",
-          "lgbt",
-          "gay romance"
-        ],
-        "movie_title": [
-          "Giant Little Ones"
-        ]
-      },
-      {
-        "Generes": [
           "Crime",
           "Drama"
         ],
         "Overview": [
-          "This coming of age story follows Mina, a rebellious teen who faces a life-changing decision. After moving in with her sister, Mina's romance with a playboy DJ leads her to help him raise 11,000 Euros. But how far will Mina have to go to make the debt?"
+          "As four friends prepare for life after high school, different challenges bring about turning points in each of their lives. The dramas unfold and resolve at their local rollerskating rink, Cascade."
         ],
         "Keywords": [
-          "cool",
-          "sex scene",
-          "female rear nudity",
-          "bathtub"
+          "hood",
+          "rollerskating rink",
+          "high school",
+          "teenager",
+          "teen romance",
+          "teen comedy",
+          "coming of age",
+          "spelman college",
+          "voice over narration",
+          "twin"
         ],
-        "movie_title": [
-          "BitterS\u00fc\u00df"
-        ]
+        "movie_title": "ATL"
+      },
+      {
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "The prehistoric family the Croods are challenged by a rival family the Bettermans, who claim to be better and more evolved."
+        ],
+        "Keywords": [
+          "caveman",
+          "second part",
+          "sidekick",
+          "teen romance",
+          "fire",
+          "sun",
+          "prehistory",
+          "teenager",
+          "story telling",
+          "gated compound",
+          "sequel",
+          "prehistory"
+        ],
+        "movie_title": "The Croods: A New Age"
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama",
+          "Fantasy"
+        ],
+        "Overview": [
+          "Against a heavy cloak of secrecy, a 12-year-old girl smitten with her handsome classmate ventures deeper and deeper into the enchanted Sicilian forests to find him, unaware of just how thick is the mystery behind his strange disappearance."
+        ],
+        "Keywords": [
+          "imprisonment",
+          "teenage romance",
+          "nudity",
+          "teenage love",
+          "kidnapping",
+          "forest",
+          "underwater scene",
+          "letter",
+          "teen angst",
+          "violence",
+          "sicily, italy",
+          "village",
+          "disappearance"
+        ],
+        "movie_title": "Sicilian Ghost Story"
       },
       {
         "Generes": [
@@ -285,32 +98,184 @@
           "Romance"
         ],
         "Overview": [
-          "A rich girl whose family summers on Cape Cod has a romance with a local poor boy who hopes to become a major league baseball player."
+          "As a new year at school begins, Lola's heart is broken by her boyfriend, though soon she's surprised by her best friend, promising musician Kyle, who reveals his feelings for her."
         ],
         "Keywords": [
-          "girl wears panties",
-          "chatham massachusetts",
-          "peroxide blonde",
-          "female removes her clothes",
-          "climbing out of a swimming pool",
-          "braless teen",
-          "team mascot",
-          "talent scout",
-          "implied sex",
-          "orange panties",
-          "beach",
-          "baseball",
-          "sports",
-          "bikini",
-          "love",
-          "romance",
-          "flashback",
-          "summer",
-          "cape cod"
+          "female protagonist",
+          "teen protagonist",
+          "teen romance",
+          "voice over narration",
+          "scene during opening credits",
+          "crush",
+          "teacher",
+          "trigonometry teacher",
+          "nickname in title",
+          "nickname as title",
+          "coming of age",
+          "teen movie",
+          "based on movie",
+          "working mom",
+          "woman director",
+          "mother daughter relationship",
+          "teenager"
         ],
-        "movie_title": [
-          "Summer Catch"
-        ]
+        "movie_title": "LOL"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Music"
+        ],
+        "Overview": [
+          "When Quinn Ackerman's admission to the college of her dreams depends on her performance at a dance competition, she forms a ragtag group of dancers to take on the best squad in school...now she just needs to learn how to dance."
+        ],
+        "Keywords": [
+          "black man white woman kiss",
+          "black man white woman relationship",
+          "black man white woman romance",
+          "dance",
+          "reference to cardi b",
+          "dance music",
+          "erection",
+          "high school",
+          "dance competition",
+          "interracial romance",
+          "teen movie"
+        ],
+        "movie_title": "Work It"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "A stockbroker on the run from the mob decides to hide out from them by enrolling as a student in high school."
+        ],
+        "Keywords": [
+          "kiss",
+          "timeframe 1980s",
+          "slimehouse",
+          "high school",
+          "teenager",
+          "suburb",
+          "car accident",
+          "teen romance",
+          "1980s",
+          "school life",
+          "witness protection",
+          "high school",
+          "disguise",
+          "delaware"
+        ],
+        "movie_title": "Hiding Out"
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "Overview": [
+          "Alice and Lester move to a new town, where their dad's bought a music store. Alice starts in 6th grade and joins the theater club, hoping to be the musical's princess. She's insecure but imagines herself cool, cute and confident."
+        ],
+        "Keywords": [
+          "school",
+          "f rated",
+          "teen angst",
+          "children",
+          "child",
+          "female protagonist",
+          "breaking the fourth wall",
+          "peeping tom",
+          "silent movie",
+          "alice in wonderland",
+          "romance"
+        ],
+        "movie_title": "Alice Upside Down"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "Overview": [
+          "Nicole and Chase used to be BFFs, then junior high happened. The high school centennial dance is coming but Nicole gets dumped. So does Chase. They stage a relationship to get at their exes. They visit each other's worlds. Love in the air?"
+        ],
+        "Keywords": [
+          "opposites attract",
+          "teenage protagonist",
+          "rival",
+          "rivalry",
+          "prom",
+          "next door neighbor",
+          "high school",
+          "teen romance",
+          "popularity",
+          "misfit",
+          "high school",
+          "prom",
+          "next door neighbor"
+        ],
+        "movie_title": "Drive Me Crazy"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Family"
+        ],
+        "Overview": [
+          "After Jodi Kreyman gains popularity, her miscommunications start causing rifts with those around her and now she really needs to 'stand tall'."
+        ],
+        "Keywords": [
+          "sequel",
+          "high school",
+          "beauty pageant",
+          "tall woman",
+          "number 2 in title",
+          "second part",
+          "teenager",
+          "young",
+          "love",
+          "class",
+          "high school",
+          "sequel",
+          "romance",
+          "teen movie"
+        ],
+        "movie_title": "Tall Girl 2"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "High-school student Ed Wallis enters into a friendship with his neighbor, Ashby, a retired CIA assassin who only has a few months left to live."
+        ],
+        "Keywords": [
+          "character name as title",
+          "former assassin",
+          "teen angst",
+          "chauffeur",
+          "oldsmobile cutlass",
+          "garrotte",
+          "gun",
+          "silencer",
+          "tattoo",
+          "last will",
+          "cia",
+          "assassin",
+          "romance",
+          "neighbor",
+          "retired",
+          "classmate"
+        ],
+        "movie_title": "Ashby"
       }
     ]
   }

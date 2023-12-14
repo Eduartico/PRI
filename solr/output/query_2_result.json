@@ -1,20 +1,19 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 6,
+    "QTime": 58,
     "params": {
       "q": "teen romance",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords Overview",
+      "qf": "movie_title Keywords Overview Generes",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
-      "wt": "json",
-      "bq": "movie_title:romance Generes:Romance Keywords:teen Keywords:romance Overview:teen Overview:romance "
+      "wt": "json"
     }
   },
   "response": {
-    "numFound": 41,
+    "numFound": 126,
     "start": 0,
     "numFoundExact": true,
     "docs": [
@@ -45,9 +44,7 @@
           "magic spell",
           "teenager"
         ],
-        "movie_title": [
-          "Teen Witch"
-        ]
+        "movie_title": "Teen Witch"
       },
       {
         "Generes": [
@@ -76,9 +73,7 @@
           "teen angst",
           "drag racing"
         ],
-        "movie_title": [
-          "The Pom Pom Girls"
-        ]
+        "movie_title": "The Pom Pom Girls"
       },
       {
         "Generes": [
@@ -103,9 +98,37 @@
           "summer",
           "former flame"
         ],
-        "movie_title": [
-          "A Summer Place"
-        ]
+        "movie_title": "A Summer Place"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "Overview": [
+          "An ordinary high school student discovers that his family has an unusual pedigree when he finds himself turning into a werewolf."
+        ],
+        "Keywords": [
+          "1980s",
+          "woman wrapped in a towel",
+          "werewolf family",
+          "teenage boy",
+          "coming of age",
+          "side boob",
+          "goofball",
+          "psychotronic film",
+          "male dresses as a female",
+          "male in a shower",
+          "trainer",
+          "training",
+          "high school",
+          "coming of age",
+          "werewolf",
+          "super power",
+          "teenager"
+        ],
+        "movie_title": "Teen Wolf"
       },
       {
         "Generes": [
@@ -136,9 +159,7 @@
           "teenage boy",
           "young love"
         ],
-        "movie_title": [
-          "A Little Romance"
-        ]
+        "movie_title": "A Little Romance"
       },
       {
         "Generes": [
@@ -161,9 +182,7 @@
           "voice over narration",
           "twin"
         ],
-        "movie_title": [
-          "ATL"
-        ]
+        "movie_title": "ATL"
       },
       {
         "Generes": [
@@ -189,9 +208,7 @@
           "musical",
           "ballet"
         ],
-        "movie_title": [
-          "Save the Last Dance"
-        ]
+        "movie_title": "Save the Last Dance"
       },
       {
         "Generes": [
@@ -216,9 +233,7 @@
           "sequel",
           "prehistory"
         ],
-        "movie_title": [
-          "The Croods: A New Age"
-        ]
+        "movie_title": "The Croods: A New Age"
       },
       {
         "Generes": [
@@ -243,9 +258,7 @@
           "crete",
           "teenage girl"
         ],
-        "movie_title": [
-          "The Moon-Spinners"
-        ]
+        "movie_title": "The Moon-Spinners"
       },
       {
         "Generes": [
@@ -275,36 +288,7 @@
           "racism",
           "1940s"
         ],
-        "movie_title": [
-          "Where Hands Touch"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama"
-        ],
-        "Overview": [
-          "Two popular teen boys, best friends since childhood, discover their lives, families, and girlfriends dramatically upended after an unexpected incident occurs on the night of a 17th birthday party."
-        ],
-        "Keywords": [
-          "teenage boy",
-          "teenage girl",
-          "teenager",
-          "kiss",
-          "teenage protagonist",
-          "gay",
-          "boyfriend girlfriend relationship",
-          "violence",
-          "bully",
-          "best friend",
-          "homophobia",
-          "coming of age",
-          "lgbt",
-          "gay romance"
-        ],
-        "movie_title": [
-          "Giant Little Ones"
-        ]
+        "movie_title": "Where Hands Touch"
       }
     ]
   }

@@ -1,14 +1,15 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 6,
+    "QTime": 9,
     "params": {
       "q": "christmas eve",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords^5 Overview^10",
+      "qf": "movie_title Keywords^10 Overview^5 Generes",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
+      "rows": "20",
       "wt": "json"
     }
   },
@@ -19,63 +20,162 @@
     "docs": [
       {
         "Generes": [
-          "Drama"
+          "Comedy",
+          "Crime",
+          "Western"
         ],
         "Overview": [
-          "A drug addicted teenage boy shows up unexpectedly at his family's home on Christmas Eve."
+          "Eric comes to El Camino looking for his unknown dad. He's harassed, hit and jailed by a drunk local cop, who later shoots at a liquor mart with Eric +4 inside. The sheriff and deputy then shoot up the place, answering each other's fire."
         ],
         "Keywords": [
-          "drug dealing",
-          "mother son relationship",
-          "group therapy",
-          "drug dealer",
-          "mother daughter relationship",
-          "interracial marriage",
-          "interracial romance",
-          "snow",
           "christmas",
-          "brother sister relationship",
-          "drug addiction",
-          "drug rehabilitation",
-          "yonkers, new york",
+          "christmas tree",
+          "f word",
+          "profanity",
+          "dark comedy",
+          "police standoff",
+          "natal",
           "christmas",
-          "mother son relationship",
-          "stolen dog"
+          "christmas eve"
         ],
-        "movie_title": [
-          "Ben Is Back"
-        ]
+        "movie_title": "El Camino Christmas"
       },
       {
         "Generes": [
           "Comedy",
           "Drama",
-          "Fantasy"
+          "Family"
         ],
         "Overview": [
-          "A selfish, cynical television executive is haunted by three spirits bearing lessons on Christmas Eve."
+          "The Muppet characters tell their version of the classic tale of an old and bitter miser's redemption on Christmas Eve."
         ],
         "Keywords": [
+          "christmas eve",
+          "muppet",
           "ghost",
+          "christmas movie",
+          "miser",
           "christmas",
-          "compassion",
-          "greed",
           "redemption",
-          "tv show",
-          "unemployment",
-          "christmas show",
-          "hallucination",
-          "based on novel",
+          "bah humbug",
+          "second chance",
+          "lost love",
           "holiday",
-          "tv ratings",
+          "london, england",
+          "based on novel or book",
+          "future",
+          "musical",
+          "past",
+          "redemption",
+          "puppetry",
           "ghost",
-          "duringcreditsstinger",
           "christmas music",
+          "christmas",
+          "19th century",
+          "victorian era",
+          "christmas eve",
+          "christmas dinner"
+        ],
+        "movie_title": "The Muppet Christmas Carol"
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "Overview": [
+          "Five Indians living in London find themselves thrown together when two of them are implicated for a bomb blast. An Indian lawyer enters the scene to bail them out of their predicament."
+        ],
+        "Keywords": [
+          "christmas",
+          "christmas eve",
+          "suspect",
+          "death",
+          "chocolate",
+          "boat",
+          "london england",
+          "flashback",
+          "cigarette smoking",
+          "boyfriend girlfriend relationship"
+        ],
+        "movie_title": "Chocolate: Deep Dark Secrets"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Thriller"
+        ],
+        "Overview": [
+          "A peaceful Christmas Eve is interrupted when a thief breaks into a house. What he isn't counting on is the family's little daughter, who mistakes him for Santa Claus and asks him to fulfill his Christmas wish list."
+        ],
+        "Keywords": [
+          "three word title",
+          "thief",
+          "extramarital affair",
+          "unfaithful wife",
+          "cheating wife",
+          "christmas eve",
+          "christmas",
+          "christmas wish",
+          "mistaken for santa claus",
+          "adulterous wife",
           "christmas"
         ],
-        "movie_title": [
-          "Scrooged"
-        ]
+        "movie_title": "La noche m\u00e1gica"
+      },
+      {
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "An animated retelling of Charles Dickens' classic novel about a Victorian-era miser taken on a journey of self-redemption, courtesy of several mysterious Christmas apparitions."
+        ],
+        "Keywords": [
+          "scrooge",
+          "christmas",
+          "ghost",
+          "christmas eve",
+          "bah humbug",
+          "ebenezer scrooge character",
+          "christmas movie",
+          "holiday",
+          "haunted house",
+          "money lender",
+          "based on toy"
+        ],
+        "movie_title": "A Christmas Carol"
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "Overview": [
+          "A woman out late for Christmas Eve shopping is soon terrorized by a small gang of troublemakers, and she must fight for her life."
+        ],
+        "Keywords": [
+          "female protagonist",
+          "dysfunctional marriage",
+          "mall",
+          "woods",
+          "security guard",
+          "housewife",
+          "gang",
+          "christmas",
+          "christmas eve",
+          "abusive husband",
+          "street gang",
+          "housewife",
+          "survival",
+          "christmas",
+          "toolbox"
+        ],
+        "movie_title": "While She Was Out"
       },
       {
         "Generes": [
@@ -84,44 +184,90 @@
           "Drama"
         ],
         "Overview": [
-          "A cat burglar is forced to take a bickering, dysfunctional family hostage on Christmas Eve."
+          "A miserable conman and his partner pose as Santa and his Little Helper to rob department stores on Christmas Eve. But they run into problems when the conman befriends a troubled kid."
         ],
         "Keywords": [
-          "thief",
-          "hostage",
-          "dysfunctional family",
           "christmas",
-          "marriage counselor",
-          "extramarital affair",
-          "unhappy marriage",
-          "marital crisis",
-          "stockholm syndrome",
-          "envelope of money",
+          "christmas eve",
+          "heaving bosom",
+          "intercourse",
+          "stripper",
+          "strip club",
+          "stripper pole",
+          "woman on top",
+          "breasts",
+          "nude",
           "holiday",
-          "robbery",
-          "parent child relationship",
-          "burglar",
+          "elves",
           "christmas party",
-          "hostage",
-          "blackmail",
-          "santa claus",
-          "bad mother-in-law",
-          "mother-in-law",
-          "liberation of hostage",
-          "police",
-          "connecticut",
-          "thief",
-          "dysfunctional family",
-          "dark comedy",
-          "man hunt",
-          "dinner",
-          "alcoholic",
-          "christmas",
-          "marriage counseling"
+          "department store",
+          "safe",
+          "drink",
+          "little people",
+          "christmas"
         ],
-        "movie_title": [
-          "The Ref"
-        ]
+        "movie_title": "Bad Santa"
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Family"
+        ],
+        "Overview": [
+          "Santa's daughter must take over the family business when her father retires and her brother, who is supposed to inherit the Santa role, gets cold feet."
+        ],
+        "Keywords": [
+          "christmas",
+          "brother sister relationship",
+          "santa claus",
+          "christmas eve",
+          "north pole",
+          "elf",
+          "reindeer",
+          "fish out of water",
+          "arizona",
+          "entitlement",
+          "holiday",
+          "santa claus",
+          "family relationships",
+          "family",
+          "christmas"
+        ],
+        "movie_title": "Noelle"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Family"
+        ],
+        "Overview": [
+          "When a man inadvertently makes Santa fall off his roof on Christmas Eve, he finds himself magically recruited to take his place."
+        ],
+        "Keywords": [
+          "christmas",
+          "santa claus character",
+          "divorce",
+          "falling off a roof",
+          "santa's sleigh",
+          "christmas season",
+          "christmas in danger",
+          "dog",
+          "blockbuster",
+          "heartbeat",
+          "holiday",
+          "chicago, illinois",
+          "christmas party",
+          "santa claus",
+          "deal",
+          "christmas tree",
+          "child custody",
+          "christmas",
+          "father son relationship",
+          "christmas eve"
+        ],
+        "movie_title": "The Santa Clause"
       },
       {
         "Generes": [
@@ -161,73 +307,295 @@
           "christmas eve",
           "lgbt interest"
         ],
-        "movie_title": [
-          "Tangerine"
-        ]
+        "movie_title": "Tangerine"
       },
       {
         "Generes": [
-          "Crime",
+          "Comedy",
           "Horror",
           "Thriller"
         ],
         "Overview": [
-          "A businesswoman is pursued by a psychopath after being locked in a parking garage on Christmas Eve."
+          "A struggling vampire romance novelist must defend herself against real-life vampires during Christmas in Lake Tahoe."
         ],
         "Keywords": [
-          "tied to a chair",
-          "christmas eve",
-          "locked in a room",
-          "obsession",
-          "parking garage",
-          "psychopath",
-          "security guard",
-          "stabbed with a fork",
-          "bitten in the leg",
-          "animal attack",
-          "kidnapping",
-          "parking garage",
-          "basement garage",
-          "psychopath",
-          "security guard",
-          "executive",
-          "christmas"
+          "vampire",
+          "christmas",
+          "novelist",
+          "lake tahoe",
+          "bat",
+          "vampire hunter",
+          "vampire fangs",
+          "transformation",
+          "killed by a vampire",
+          "violence",
+          "vampire",
+          "cabin",
+          "bat",
+          "christmas tree",
+          "vampire hunter (slayer)",
+          "decapitation",
+          "blood spurting",
+          "christmas lights",
+          "christmas horror",
+          "christmas",
+          "garlic",
+          "lake tahoe",
+          "christmas eve"
         ],
-        "movie_title": [
-          "P2"
-        ]
+        "movie_title": "Red Snow"
       },
       {
         "Generes": [
-          "Adventure",
-          "Comedy",
-          "Crime"
+          "Action",
+          "Horror",
+          "Thriller"
         ],
         "Overview": [
-          "Residents of a friendly Pennsylvania town foil three brothers' plan to rob a bank on Christmas Eve."
+          "On Christmas Eve, a resourceful young boy has to defend himself and his grandfather from a killer dressed as Santa Claus."
         ],
         "Keywords": [
-          "brother brother relationship",
-          "hostage",
+          "christmas eve",
+          "criminal dresses as santa claus",
+          "santa claus",
+          "killing a dog",
+          "home alone",
+          "christmas horror",
+          "killer santa claus",
+          "holiday horror",
           "christmas",
-          "bank robbery",
-          "heist",
-          "small town",
-          "parole",
-          "police",
-          "rescue",
-          "restaurant",
-          "holiday",
-          "pennsylvania, usa",
-          "small town",
-          "bank robbery",
-          "ex-con",
-          "christmas",
-          "brothers"
+          "stalker",
+          "board game",
+          "slasher",
+          "strangler",
+          "giallo"
         ],
-        "movie_title": [
-          "Trapped in Paradise"
-        ]
+        "movie_title": "Deadly Games"
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "Overview": [
+          "In Las Vegas, a group of assorted criminals plans the robbery of an armored truck hauling casino money to the bank."
+        ],
+        "Keywords": [
+          "heist",
+          "psychotronic film",
+          "christmas",
+          "new year's eve",
+          "bulova watches",
+          "gunsel",
+          "casino",
+          "robbery",
+          "uniform",
+          "tied up",
+          "casino",
+          "adultery",
+          "new year's eve",
+          "robbery",
+          "gas station",
+          "gangster",
+          "murder",
+          "heist",
+          "desert"
+        ],
+        "movie_title": "Guns Girls and Gangsters"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama"
+        ],
+        "Overview": [
+          "The events focus around a crisis hotline business on one crazy night during the Christmas holidays."
+        ],
+        "Keywords": [
+          "farce",
+          "christmas",
+          "veterinarian",
+          "christmas eve",
+          "remake of french film",
+          "transvestite",
+          "suicide hotline",
+          "remake",
+          "corpse",
+          "title directed by female",
+          "holiday",
+          "slapstick comedy",
+          "remake",
+          "rollerblades",
+          "cross dresser",
+          "woman director",
+          "suicide hotline",
+          "christmas"
+        ],
+        "movie_title": "Mixed Nuts"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Family",
+          "Fantasy"
+        ],
+        "Overview": [
+          "Scott Calvin has been a humble Santa Claus for eight years, but it might come to an end if he doesn't find a Mrs. Claus."
+        ],
+        "Keywords": [
+          "christmas",
+          "santa claus character",
+          "playing american football",
+          "father time",
+          "race against time",
+          "numbered sequel",
+          "part of trilogy",
+          "four word title",
+          "looking for love",
+          "christmas eve",
+          "holiday",
+          "christmas party",
+          "home",
+          "santa claus",
+          "magic",
+          "wish",
+          "son",
+          "sequel",
+          "saving christmas",
+          "christmas",
+          "parent teacher romance"
+        ],
+        "movie_title": "The Santa Clause 2"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Fantasy",
+          "Horror"
+        ],
+        "Overview": [
+          "Santa Claus is actually a demon who lost a bet with an Angel, so he becomes the giver of toys and happiness. But when the bet is off, he returns to his evil ways."
+        ],
+        "Keywords": [
+          "angel",
+          "santa claus",
+          "wager",
+          "christmas",
+          "hell",
+          "revenge",
+          "christmas eve",
+          "real twins playing twins",
+          "stepmother stepson relationship",
+          "grandfather grandson relationship",
+          "holiday",
+          "angel",
+          "bet",
+          "grandparent grandchild relationship",
+          "mass murder",
+          "santa claus",
+          "killer santa claus",
+          "christmas horror"
+        ],
+        "movie_title": "Santa's Slay"
+      },
+      {
+        "Generes": [
+          "Horror",
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "Overview": [
+          "A group of friends take refuge in an island hotel that is decorated for New Years. The problem is, it's early summer, and soon enough, even the walls themselves are striking out against them."
+        ],
+        "Keywords": [
+          "island",
+          "new year's eve",
+          "quicksand",
+          "zombie",
+          "poltergeist",
+          "funfair",
+          "fireworks",
+          "apparition",
+          "snowstorm",
+          "hooligan",
+          "hotel",
+          "new year's eve",
+          "island",
+          "pilot",
+          "chase",
+          "fair",
+          "christmas tree",
+          "murder",
+          "gore",
+          "airplane crash",
+          "ghost",
+          "broken glass",
+          "sinking boat"
+        ],
+        "movie_title": "Bloody New Year"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Drama",
+          "Fantasy"
+        ],
+        "Overview": [
+          "A selfish, cynical television executive is haunted by three spirits bearing lessons on Christmas Eve."
+        ],
+        "Keywords": [
+          "ghost",
+          "christmas",
+          "compassion",
+          "greed",
+          "redemption",
+          "tv show",
+          "unemployment",
+          "christmas show",
+          "hallucination",
+          "based on novel",
+          "holiday",
+          "tv ratings",
+          "ghost",
+          "duringcreditsstinger",
+          "christmas music",
+          "christmas"
+        ],
+        "movie_title": "Scrooged"
+      },
+      {
+        "Generes": [
+          "Horror",
+          "Thriller"
+        ],
+        "Overview": [
+          "Separated from her fiance after sneaking onto a restricted slope, Mia, a free-riding snowboarder, must survive not only against nature, but also the masked snowmobile rider in black who is out for her blood."
+        ],
+        "Keywords": [
+          "engagement ring",
+          "avalanche",
+          "buried in snow",
+          "fiance",
+          "snow",
+          "woman in a bathtub",
+          "blonde",
+          "couple",
+          "making love",
+          "young couple",
+          "holiday",
+          "based on novel or book",
+          "pig",
+          "snow",
+          "teen movie",
+          "blizzard",
+          "lgbt",
+          "multiple storylines",
+          "christmas spirit",
+          "christmas",
+          "christmas eve"
+        ],
+        "movie_title": "Let It Snow"
       },
       {
         "Generes": [
@@ -236,122 +604,38 @@
           "Comedy"
         ],
         "Overview": [
-          "On Christmas Eve, a young boy embarks on a magical adventure to the North Pole on the Polar Express, while learning about friendship, bravery, and the spirit of Christmas."
+          "Santa's clumsy son Arthur sets out on a mission with Grandsanta to give out a present they misplaced to a young girl in less than two hours."
         ],
         "Keywords": [
-          "santa claus character",
-          "christmas movie",
-          "male protagonist",
-          "based on children's book",
-          "train engineer",
-          "pajamas",
-          "child",
-          "train fireman",
-          "passenger train",
-          "midnight",
-          "holiday",
+          "christmas",
+          "elf",
+          "christmas eve",
+          "resentment",
           "santa claus",
-          "nerd",
-          "faith",
-          "bell",
-          "train",
-          "beard",
+          "father son relationship",
+          "brother brother relationship",
+          "christmas movie",
+          "mistaken for alien",
+          "christmas elf",
+          "holiday",
+          "elves",
+          "santa claus",
+          "assistant",
+          "sleigh",
+          "wish",
+          "reindeer",
+          "family",
           "north pole",
-          "trestle",
-          "ticket",
-          "train travel",
-          "christmas"
-        ],
-        "movie_title": [
-          "The Polar Express"
-        ]
-      },
-      {
-        "Generes": [
-          "Fantasy",
-          "Horror",
-          "Mystery"
-        ],
-        "Overview": [
-          "Interwoven stories that take place on Christmas Eve, as told by one festive radio host: A family brings home more than a Christmas tree, a student documentary becomes a living nightmare, a Christmas spirit terrorizes, Santa slays evil."
-        ],
-        "Keywords": [
+          "high tech",
+          "clumsiness",
+          "duringcreditsstinger",
+          "letter to santa claus",
+          "woman director",
           "christmas",
-          "zombie",
-          "christmas spirit",
-          "radio host",
-          "krampus",
-          "crucifixion",
-          "shotgun",
-          "pistol",
-          "gore",
-          "blood",
-          "santa claus",
-          "christmas"
+          "father son relationship",
+          "brother brother relationship"
         ],
-        "movie_title": [
-          "A Christmas Horror Story"
-        ]
-      },
-      {
-        "Generes": [
-          "Adventure",
-          "Comedy",
-          "Horror"
-        ],
-        "Overview": [
-          "It's Christmas Eve, and three cosplaying women come across the malevolent Christmas demon Krampus. The girls must team up with Santa Claus himself to battle the creature and save the world."
-        ],
-        "Keywords": [
-          "girl",
-          "christmas",
-          "christmas horror",
-          "christmas",
-          "krampus"
-        ],
-        "movie_title": [
-          "Slay Belles"
-        ]
-      },
-      {
-        "Generes": [
-          "Comedy",
-          "Drama",
-          "Family"
-        ],
-        "Overview": [
-          "The Muppet characters tell their version of the classic tale of an old and bitter miser's redemption on Christmas Eve."
-        ],
-        "Keywords": [
-          "christmas eve",
-          "muppet",
-          "ghost",
-          "christmas movie",
-          "miser",
-          "christmas",
-          "redemption",
-          "bah humbug",
-          "second chance",
-          "lost love",
-          "holiday",
-          "london, england",
-          "based on novel or book",
-          "future",
-          "musical",
-          "past",
-          "redemption",
-          "puppetry",
-          "ghost",
-          "christmas music",
-          "christmas",
-          "19th century",
-          "victorian era",
-          "christmas eve",
-          "christmas dinner"
-        ],
-        "movie_title": [
-          "The Muppet Christmas Carol"
-        ]
+        "movie_title": "Arthur Christmas"
       }
     ]
   }

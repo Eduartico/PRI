@@ -7,7 +7,7 @@ SELECT_URL = 'http://localhost:8983/solr/movies/select'
 
 # filmes de animação que tenham princesas 
 
-
+'''
 params = {
     'defType': 'edismax',
     'q': 'animation princess',
@@ -26,12 +26,11 @@ params = {
     'q': 'animation princess',
     'indent': 'true',
     'q.op': 'AND',
-    'qf' : 'movie_title Keywords^2 Overview^3',
+    'qf' : 'movie_title Keywords^10 Overview^5 Generes',
     "fl" : "movie_title, Overview, Generes, Keywords",
-    'bq': 'movie_title:princess^2 movie_title:animation Keywords:animation^2 Keywords:princess^2 Overview:princess^3 Overview:animation^3 ',
     'wt': 'json',
 }
-'''
+
 
 
 query_string = urllib.parse.urlencode(params)

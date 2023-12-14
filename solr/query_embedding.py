@@ -15,7 +15,8 @@ def solr_knn_query(endpoint, collection, embedding):
 
     data = {
         "q": f"{{!knn f=vector topK=10}}{embedding}",
-        "fl": "movie_title,Overview,score",
+        "fl": "movie_title,Overview,year,Rating,User_rating,Generes,Keywords,Director,Top_5_Casts,Writer,year,path,Popularity,Votes,Adult,Poster_Image,Taglines,Runtime,score",
+        "qf" : "movie_title Keywords^10 Overview^5 Generes" ,
         "rows": 10,
         "wt": "json"
     }
@@ -35,7 +36,7 @@ def display_results(results):
         return
 
     for doc in docs:
-        print(f"* {doc.get('movie_title')} {doc.get('Overview')} [score: {doc.get('score'):.2f}]")
+        print(f"* {doc.get('movie_title')} {doc.get('Overview')} {doc.get('year')} [score: {doc.get('score'):.2f}]")
 
 
 def main():
@@ -52,6 +53,7 @@ def main():
    try:
        results = solr_knn_query(solr_endpoint, collection, embedding)
        display_results(results)
+
    except requests.HTTPError as e:
        print(f"Error {e.response.status_code}: {e.response.text}")
 

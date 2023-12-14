@@ -24,9 +24,8 @@ params = {
  'q': 'horror -supernatural',
  'indent': 'true',
  'q.op': 'AND',
- 'qf' : 'movie_title Keywords^3 Overview^2 Generes^3',
+ 'qf' : 'movie_title Keywords^10 Overview^5 Generes',
  "fl" : "movie_title, Overview, Generes, Keywords",
- 'bq': ' Generes:horror^3 Keywords:horror^2 Overview:horror^2',
  'wt': 'json'
 }
 

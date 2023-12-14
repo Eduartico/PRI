@@ -1,7 +1,7 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 6,
+    "QTime": 49,
     "params": {
       "q": "horror -supernatural",
       "defType": "edismax",
@@ -39,9 +39,7 @@
           "anthology",
           "woman director"
         ],
-        "movie_title": [
-          "XX"
-        ]
+        "movie_title": "XX"
       },
       {
         "Generes": [
@@ -77,9 +75,7 @@
           "severed hand",
           "horror anthology"
         ],
-        "movie_title": [
-          "Tales from the Darkside: The Movie"
-        ]
+        "movie_title": "Tales from the Darkside: The Movie"
       },
       {
         "Generes": [
@@ -93,9 +89,7 @@
         "Keywords": [
           "occult horror"
         ],
-        "movie_title": [
-          "Jake's Road"
-        ]
+        "movie_title": "Jake's Road"
       },
       {
         "Generes": [
@@ -110,9 +104,7 @@
           "death game",
           "bitch ass"
         ],
-        "movie_title": [
-          "Bitch Ass"
-        ]
+        "movie_title": "Bitch Ass"
       },
       {
         "Generes": [
@@ -139,9 +131,7 @@
           "cementery",
           "erotic horror"
         ],
-        "movie_title": [
-          "Orgy of the Dead"
-        ]
+        "movie_title": "Orgy of the Dead"
       },
       {
         "Generes": [
@@ -170,9 +160,7 @@
           "ex-boyfriend ex-girlfriend relationship",
           "home movies"
         ],
-        "movie_title": [
-          "Arrebato"
-        ]
+        "movie_title": "Arrebato"
       },
       {
         "Generes": [
@@ -195,9 +183,7 @@
           "big breasts",
           "festival"
         ],
-        "movie_title": [
-          "Blood Fest"
-        ]
+        "movie_title": "Blood Fest"
       },
       {
         "Generes": [
@@ -225,9 +211,7 @@
           "evil",
           "mirror"
         ],
-        "movie_title": [
-          "Candyman"
-        ]
+        "movie_title": "Candyman"
       },
       {
         "Generes": [
@@ -253,9 +237,7 @@
           "anthology",
           "antiques shop"
         ],
-        "movie_title": [
-          "From Beyond the Grave"
-        ]
+        "movie_title": "From Beyond the Grave"
       },
       {
         "Generes": [
@@ -290,9 +272,7 @@
           "witchcraft",
           "evil child"
         ],
-        "movie_title": [
-          "The House That Dripped Blood"
-        ]
+        "movie_title": "The House That Dripped Blood"
       }
     ]
   }

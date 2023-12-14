@@ -1,16 +1,15 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 7,
+    "QTime": 2,
     "params": {
       "q": "horror -supernatural",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords^3 Overview^2 Generes^3",
+      "qf": "movie_title Keywords^10 Overview^5 Generes",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
-      "wt": "json",
-      "bq": " Generes:horror^3 Keywords:horror^2 Overview:horror^2"
+      "wt": "json"
     }
   },
   "response": {
@@ -20,28 +19,175 @@
     "docs": [
       {
         "Generes": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "Following the events of the previous film, a lesbian couple are determined to eliminate the most corrupt, evil forces of Tromaville and the world."
+        ],
+        "Keywords": [
+          "fifth part",
+          "horror host",
+          "male horror host",
+          "usa male horror host",
+          "usa horror host",
+          "satire",
+          "topical humor",
+          "goofball",
+          "spoof",
+          "second part"
+        ],
+        "movie_title": "Return to Return to Nuke 'Em High Aka Vol. 2"
+      },
+      {
+        "Generes": [
+          "Action",
+          "Horror",
+          "Mystery"
+        ],
+        "Overview": [
+          "A couple spend eternity in a castle until their reality starts to shift, as the unknown moves into their lives."
+        ],
+        "Keywords": [
+          "castle",
+          "frightfest",
+          "gothic horror",
+          "psychedelic",
+          "70s",
+          "castle",
+          "time",
+          "lsd",
+          "gothic horror",
+          "swinging 60s",
+          "ghost",
+          "psychedelic",
+          "eternity",
+          "trippy",
+          "reality shifts",
+          "indie horror",
+          "throwback horror"
+        ],
+        "movie_title": "Dawn Breaks Behind the Eyes"
+      },
+      {
+        "Generes": [
+          "Drama",
+          "Horror",
+          "Thriller"
+        ],
+        "Overview": [
+          "After Max and Avery meet on a social media app for a first date, they end up at a haunted house only to realize the trauma they share may either save them or erupt into an unforgettable nightmare."
+        ],
+        "Keywords": [
+          "trauma",
+          "childhood trauma",
+          "assault",
+          "betrayal",
+          "psychological thriller",
+          "psychosexual thriller",
+          "horror fans",
+          "horror culture",
+          "horror mystery",
+          "sociological thriller"
+        ],
+        "movie_title": "Those Who Walk Away"
+      },
+      {
+        "Generes": [
+          "Action",
+          "Drama",
           "Horror"
         ],
         "Overview": [
-          "Four short horror films that are directed and written by women."
+          "Passengers on a stranded bus in a desert are attacked by a vengeful winged witch."
         ],
         "Keywords": [
-          "box",
-          "birthday party",
-          "single mother",
-          "starving oneself",
-          "four stories",
-          "starving to death",
-          "starvation",
-          "refusing to eat",
-          "horror directed by woman",
-          "parent teacher meeting",
-          "anthology",
-          "woman director"
+          "desert",
+          "desolate",
+          "lost in the desert",
+          "horror",
+          "day horror"
         ],
-        "movie_title": [
-          "XX"
-        ]
+        "movie_title": "Kaalo"
+      },
+      {
+        "Generes": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "Overview": [
+          "When the other students begin to undergo mutations, a lesbian couple must solve the mystery and save Tromaville High School."
+        ],
+        "Keywords": [
+          "fourth part",
+          "horror host",
+          "male horror host",
+          "usa male horror host",
+          "usa horror host",
+          "lesbian interest",
+          "lesbian couple",
+          "lesbianism",
+          "female frontal nudity",
+          "female rear nudity",
+          "satire",
+          "sequel",
+          "shock humor"
+        ],
+        "movie_title": "Return to Nuke 'Em High Volume 1"
+      },
+      {
+        "Generes": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "Overview": [
+          "A police S.W.A.T. team investigates about a mysterious VHS tape and discovers a sinister cult that has pre-recorded material which uncovers a nightmarish conspiracy."
+        ],
+        "Keywords": [
+          "found footage",
+          "anthology",
+          "mockumentary",
+          "vhs",
+          "anthology horror",
+          "found footage horror",
+          "sequel",
+          "fourth part",
+          "police",
+          "cult",
+          "vhs",
+          "found footage",
+          "franchise",
+          "horror anthology"
+        ],
+        "movie_title": "V/H/S/94"
+      },
+      {
+        "Generes": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "Overview": [
+          "When South America killer bees, corporately smuggled into the United States, mutates into intelligent insects and attacks helpless people, young scientist work desperately to end the threat as the menace swarms in on the city areas."
+        ],
+        "Keywords": [
+          "natural horror",
+          "bee",
+          "bee attack",
+          "grindhouse film",
+          "blood",
+          "drive in classic",
+          "mexican horror",
+          "american horror",
+          "low budget film",
+          "invasion",
+          "laboratory",
+          "killer bees"
+        ],
+        "movie_title": "The Bees"
       },
       {
         "Generes": [
@@ -55,251 +201,33 @@
         "Keywords": [
           "occult horror"
         ],
-        "movie_title": [
-          "Jake's Road"
-        ]
-      },
-      {
-        "Generes": [
-          "Crime",
-          "Horror"
-        ],
-        "Overview": [
-          "A gang initiation goes wrong when a group of four recruits break into a house of horror, as they're all forced to play deadly games for their lives. Win and you live - lose and you die."
-        ],
-        "Keywords": [
-          "black horror",
-          "death game",
-          "bitch ass"
-        ],
-        "movie_title": [
-          "Bitch Ass"
-        ]
-      },
-      {
-        "Generes": [
-          "Comedy",
-          "Fantasy",
-          "Horror"
-        ],
-        "Overview": [
-          "A young boy tells three stories of horror to distract a witch who plans to eat him."
-        ],
-        "Keywords": [
-          "killer cat",
-          "anthology",
-          "hitman",
-          "based on tv series",
-          "secret",
-          "gargoyle",
-          "mummy",
-          "wraparound story",
-          "breaking the fourth wall",
-          "horror anthology",
-          "witch",
-          "monster",
-          "heart attack",
-          "mummy",
-          "paperboy",
-          "anthology",
-          "dark comedy",
-          "decapitation",
-          "gargoyle",
-          "darkside",
-          "black cat",
-          "severed hand",
-          "horror anthology"
-        ],
-        "movie_title": [
-          "Tales from the Darkside: The Movie"
-        ]
+        "movie_title": "Jake's Road"
       },
       {
         "Generes": [
           "Fantasy",
-          "Horror"
-        ],
-        "Overview": [
-          "A couple driving to a cemetery looking for inspiration for a horror story encounters the dancing dead."
-        ],
-        "Keywords": [
-          "graveyard",
-          "grindhouse film",
-          "dancing",
-          "zombie girl",
-          "matador",
-          "human skull",
-          "native american woman",
-          "crypt",
-          "tomb",
-          "tied to a post",
-          "dancing",
-          "ghoul",
-          "graveyard",
-          "cementery",
-          "erotic horror"
-        ],
-        "movie_title": [
-          "Orgy of the Dead"
-        ]
-      },
-      {
-        "Generes": [
           "Horror",
-          "Mystery",
-          "Romance"
+          "Sci-Fi"
         ],
         "Overview": [
-          "Three horror stories based on the writings of Nathaniel Hawthorne. In the first story titled \"Dr. Heidegger's Experiment\", Heidegger attempts to restore the youth of himself, his fiancee and his best friend. In \"Rappaccini's Daughter\", Vincent Price plays a demented father inocul... Read all"
+          "Set in the fictional college campus \"Miskatonic University\" in Arkham, Massachusetts where all sorts of fantastic and unworldly events have been known to unfold in Lovecraft lore, THE RESONATOR: MISKATONIC U follows six gifted students as they navigate life after one of them, Cra... Read all"
         ],
         "Keywords": [
-          "based on short story",
-          "usa horror host",
-          "usa male horror host",
-          "male horror host",
-          "psychotronic film",
-          "bleeding mouth",
-          "portrait comes to life",
-          "hallucination",
-          "memory",
-          "childhood memories",
-          "poison",
-          "based on novel or book",
-          "experiment",
-          "haunted house",
-          "anthology",
-          "friends",
-          "curse",
-          "mad doctor",
-          "tomb",
-          "family curse"
+          "cosmic horror"
         ],
-        "movie_title": [
-          "Twice-Told Tales"
-        ]
+        "movie_title": "The Resonator: Miskatonic U"
       },
       {
         "Generes": [
-          "Comedy",
           "Horror"
         ],
         "Overview": [
-          "Fans flock to a festival celebrating the most iconic horror movies, only to discover that the charismatic showman behind the event has a diabolical agenda."
+          "A rich family eagerly buys an abandoned mansion in a rural area, but later discover that the mansion has a very disturbing and horrifying past."
         ],
         "Keywords": [
-          "splatter comedy",
-          "masked killer",
-          "horror fan",
-          "showman",
-          "festival",
-          "insane man",
-          "psychopath",
-          "trapped",
-          "teenager",
-          "big breasts",
-          "festival"
+          "ramsay's horror"
         ],
-        "movie_title": [
-          "Blood Fest"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama",
-          "Fantasy",
-          "Horror"
-        ],
-        "Overview": [
-          "An anthology of four horror stories revolving around a mysterious rental house in the U.K."
-        ],
-        "Keywords": [
-          "horror anthology",
-          "anthology",
-          "occult",
-          "wax museum",
-          "mansion",
-          "haunted house",
-          "burned in fireplace",
-          "psychotronic film",
-          "breaking the fourth wall",
-          "human skull",
-          "scotland yard",
-          "infidelity",
-          "exploitation",
-          "vampire",
-          "inspector",
-          "anthology",
-          "curse",
-          "wax museum",
-          "decapitation",
-          "investigator",
-          "witchcraft",
-          "evil child"
-        ],
-        "movie_title": [
-          "The House That Dripped Blood"
-        ]
-      },
-      {
-        "Generes": [
-          "Drama",
-          "Fantasy",
-          "Horror"
-        ],
-        "Overview": [
-          "A low budget horror filmmaker gets in touch with an eccentric who is trying to film his consciousness during drug abuse."
-        ],
-        "Keywords": [
-          "topless female nudity",
-          "cocaine",
-          "male full frontal nudity",
-          "full frontal male nudity",
-          "pubic hair",
-          "male pubic hair",
-          "false teeth",
-          "false vampire teeth",
-          "arthouse horror",
-          "spanish horror",
-          "drug abuse",
-          "male friendship",
-          "cinema on cinema",
-          "cult film",
-          "ex-boyfriend ex-girlfriend relationship",
-          "home movies"
-        ],
-        "movie_title": [
-          "Arrebato"
-        ]
-      },
-      {
-        "Generes": [
-          "Horror",
-          "Thriller"
-        ],
-        "Overview": [
-          "A sequel to the horror film Candyman (1992) that returns to the now-gentrified Chicago neighborhood where the legend began."
-        ],
-        "Keywords": [
-          "bee",
-          "hook",
-          "african american",
-          "horror icon",
-          "slasher",
-          "bloody violence",
-          "slasher killer",
-          "based on urban legend",
-          "hook for a hand",
-          "mirror",
-          "sequel",
-          "murder",
-          "urban legend",
-          "bee",
-          "evil",
-          "mirror"
-        ],
-        "movie_title": [
-          "Candyman"
-        ]
+        "movie_title": "Purani Haveli"
       }
     ]
   }

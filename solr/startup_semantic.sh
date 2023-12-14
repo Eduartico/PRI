@@ -6,7 +6,7 @@
 # Schema definition via API
 curl -X POST -H 'Content-type:application/json' \
     --data-binary "@./semantic_schema.json" \
-    http://localhost:8983/solr/courses/schema
+    http://localhost:8983/solr/movies/schema
 
 # Populate collection using mapped path inside container.
 curl -X POST -H 'Content-type:application/json' \

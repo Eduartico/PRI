@@ -1,14 +1,15 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 6,
+    "QTime": 3,
     "params": {
       "q": "christmas eve",
       "defType": "edismax",
       "indent": "true",
-      "qf": "movie_title Keywords Overview",
+      "qf": "movie_title Keywords Overview Generes",
       "fl": "movie_title, Overview, Generes, Keywords",
       "q.op": "AND",
+      "rows": "20",
       "wt": "json"
     }
   },
@@ -37,9 +38,7 @@
           "christmas",
           "christmas eve"
         ],
-        "movie_title": [
-          "El Camino Christmas"
-        ]
+        "movie_title": "El Camino Christmas"
       },
       {
         "Generes": [
@@ -68,9 +67,7 @@
           "christmas music",
           "christmas"
         ],
-        "movie_title": [
-          "Scrooged"
-        ]
+        "movie_title": "Scrooged"
       },
       {
         "Generes": [
@@ -108,9 +105,7 @@
           "christmas eve",
           "christmas dinner"
         ],
-        "movie_title": [
-          "The Muppet Christmas Carol"
-        ]
+        "movie_title": "The Muppet Christmas Carol"
       },
       {
         "Generes": [
@@ -143,9 +138,7 @@
           "father son relationship",
           "christmas eve"
         ],
-        "movie_title": [
-          "The Santa Clause"
-        ]
+        "movie_title": "The Santa Clause"
       },
       {
         "Generes": [
@@ -172,9 +165,7 @@
           "mother son relationship",
           "stolen dog"
         ],
-        "movie_title": [
-          "Ben Is Back"
-        ]
+        "movie_title": "Ben Is Back"
       },
       {
         "Generes": [
@@ -218,9 +209,7 @@
           "christmas",
           "marriage counseling"
         ],
-        "movie_title": [
-          "The Ref"
-        ]
+        "movie_title": "The Ref"
       },
       {
         "Generes": [
@@ -260,9 +249,7 @@
           "christmas eve",
           "lgbt interest"
         ],
-        "movie_title": [
-          "Tangerine"
-        ]
+        "movie_title": "Tangerine"
       },
       {
         "Generes": [
@@ -280,9 +267,7 @@
           "christmas",
           "krampus"
         ],
-        "movie_title": [
-          "Slay Belles"
-        ]
+        "movie_title": "Slay Belles"
       },
       {
         "Generes": [
@@ -312,9 +297,7 @@
           "executive",
           "christmas"
         ],
-        "movie_title": [
-          "P2"
-        ]
+        "movie_title": "P2"
       },
       {
         "Generes": [
@@ -344,9 +327,286 @@
           "christmas",
           "brothers"
         ],
-        "movie_title": [
-          "Trapped in Paradise"
-        ]
+        "movie_title": "Trapped in Paradise"
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "Overview": [
+          "Five Indians living in London find themselves thrown together when two of them are implicated for a bomb blast. An Indian lawyer enters the scene to bail them out of their predicament."
+        ],
+        "Keywords": [
+          "christmas",
+          "christmas eve",
+          "suspect",
+          "death",
+          "chocolate",
+          "boat",
+          "london england",
+          "flashback",
+          "cigarette smoking",
+          "boyfriend girlfriend relationship"
+        ],
+        "movie_title": "Chocolate: Deep Dark Secrets"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Thriller"
+        ],
+        "Overview": [
+          "A peaceful Christmas Eve is interrupted when a thief breaks into a house. What he isn't counting on is the family's little daughter, who mistakes him for Santa Claus and asks him to fulfill his Christmas wish list."
+        ],
+        "Keywords": [
+          "three word title",
+          "thief",
+          "extramarital affair",
+          "unfaithful wife",
+          "cheating wife",
+          "christmas eve",
+          "christmas",
+          "christmas wish",
+          "mistaken for santa claus",
+          "adulterous wife",
+          "christmas"
+        ],
+        "movie_title": "La noche m\u00e1gica"
+      },
+      {
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "On Christmas Eve, a young boy embarks on a magical adventure to the North Pole on the Polar Express, while learning about friendship, bravery, and the spirit of Christmas."
+        ],
+        "Keywords": [
+          "santa claus character",
+          "christmas movie",
+          "male protagonist",
+          "based on children's book",
+          "train engineer",
+          "pajamas",
+          "child",
+          "train fireman",
+          "passenger train",
+          "midnight",
+          "holiday",
+          "santa claus",
+          "nerd",
+          "faith",
+          "bell",
+          "train",
+          "beard",
+          "north pole",
+          "trestle",
+          "ticket",
+          "train travel",
+          "christmas"
+        ],
+        "movie_title": "The Polar Express"
+      },
+      {
+        "Generes": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "Overview": [
+          "A woman out late for Christmas Eve shopping is soon terrorized by a small gang of troublemakers, and she must fight for her life."
+        ],
+        "Keywords": [
+          "female protagonist",
+          "dysfunctional marriage",
+          "mall",
+          "woods",
+          "security guard",
+          "housewife",
+          "gang",
+          "christmas",
+          "christmas eve",
+          "abusive husband",
+          "street gang",
+          "housewife",
+          "survival",
+          "christmas",
+          "toolbox"
+        ],
+        "movie_title": "While She Was Out"
+      },
+      {
+        "Generes": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ],
+        "Overview": [
+          "An animated retelling of Charles Dickens' classic novel about a Victorian-era miser taken on a journey of self-redemption, courtesy of several mysterious Christmas apparitions."
+        ],
+        "Keywords": [
+          "scrooge",
+          "christmas",
+          "ghost",
+          "christmas eve",
+          "bah humbug",
+          "ebenezer scrooge character",
+          "christmas movie",
+          "holiday",
+          "haunted house",
+          "money lender",
+          "based on toy"
+        ],
+        "movie_title": "A Christmas Carol"
+      },
+      {
+        "Generes": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "Overview": [
+          "On Christmas Eve, a resourceful young boy has to defend himself and his grandfather from a killer dressed as Santa Claus."
+        ],
+        "Keywords": [
+          "christmas eve",
+          "criminal dresses as santa claus",
+          "santa claus",
+          "killing a dog",
+          "home alone",
+          "christmas horror",
+          "killer santa claus",
+          "holiday horror",
+          "christmas",
+          "stalker",
+          "board game",
+          "slasher",
+          "strangler",
+          "giallo"
+        ],
+        "movie_title": "Deadly Games"
+      },
+      {
+        "Generes": [
+          "Fantasy",
+          "Horror",
+          "Mystery"
+        ],
+        "Overview": [
+          "Interwoven stories that take place on Christmas Eve, as told by one festive radio host: A family brings home more than a Christmas tree, a student documentary becomes a living nightmare, a Christmas spirit terrorizes, Santa slays evil."
+        ],
+        "Keywords": [
+          "christmas",
+          "zombie",
+          "christmas spirit",
+          "radio host",
+          "krampus",
+          "crucifixion",
+          "shotgun",
+          "pistol",
+          "gore",
+          "blood",
+          "santa claus",
+          "christmas"
+        ],
+        "movie_title": "A Christmas Horror Story"
+      },
+      {
+        "Generes": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "Overview": [
+          "A miserable conman and his partner pose as Santa and his Little Helper to rob department stores on Christmas Eve. But they run into problems when the conman befriends a troubled kid."
+        ],
+        "Keywords": [
+          "christmas",
+          "christmas eve",
+          "heaving bosom",
+          "intercourse",
+          "stripper",
+          "strip club",
+          "stripper pole",
+          "woman on top",
+          "breasts",
+          "nude",
+          "holiday",
+          "elves",
+          "christmas party",
+          "department store",
+          "safe",
+          "drink",
+          "little people",
+          "christmas"
+        ],
+        "movie_title": "Bad Santa"
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Family"
+        ],
+        "Overview": [
+          "Santa's daughter must take over the family business when her father retires and her brother, who is supposed to inherit the Santa role, gets cold feet."
+        ],
+        "Keywords": [
+          "christmas",
+          "brother sister relationship",
+          "santa claus",
+          "christmas eve",
+          "north pole",
+          "elf",
+          "reindeer",
+          "fish out of water",
+          "arizona",
+          "entitlement",
+          "holiday",
+          "santa claus",
+          "family relationships",
+          "family",
+          "christmas"
+        ],
+        "movie_title": "Noelle"
+      },
+      {
+        "Generes": [
+          "Adventure",
+          "Comedy",
+          "Family"
+        ],
+        "Overview": [
+          "The story of sister and brother, Kate and Teddy Pierce, whose Christmas Eve plan to catch Santa Claus on camera turns into an unexpected journey that most kids could only dream about."
+        ],
+        "Keywords": [
+          "christmas",
+          "reindeer",
+          "christmas spirit",
+          "santa's sleigh",
+          "brother sister relationship",
+          "santa claus",
+          "naughty or nice",
+          "stealing a car",
+          "police car chase",
+          "video camera",
+          "holiday",
+          "massachusetts",
+          "camera",
+          "santa claus",
+          "brother",
+          "sister",
+          "north pole",
+          "journey",
+          "christmas spirit",
+          "christmas",
+          "chronicles"
+        ],
+        "movie_title": "The Christmas Chronicles"
       }
     ]
   }
